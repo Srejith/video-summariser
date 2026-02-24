@@ -1,0 +1,78 @@
+2026-02-15 14:38:46  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Starting audio extraction
+2026-02-15 14:38:46  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Source video : c6c6ed6d-88f1-45e0-86e0-04945980ecb5.mp4
+2026-02-15 14:38:46  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Target audio : c6c6ed6d-88f1-45e0-86e0-04945980ecb5.wav
+2026-02-15 14:38:46  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-15 14:38:47  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Extraction complete in 1.5s
+2026-02-15 14:38:47  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Output audio size: 48.06 MB
+2026-02-15 14:38:50  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Audio exceeds 25 MB — splitting into 600s chunks
+2026-02-15 14:38:51  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 1: chunk_000.wav (18.31 MB)
+2026-02-15 14:38:51  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 2: chunk_001.wav (18.31 MB)
+2026-02-15 14:38:51  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 3: chunk_002.wav (11.44 MB)
+2026-02-15 14:38:51  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Split produced 3 chunk(s)
+2026-02-15 15:49:01  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Starting audio extraction
+2026-02-15 15:49:01  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Source video : c1970310-32dd-4e89-982e-f377a37adcb9.mp4
+2026-02-15 15:49:01  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Target audio : c1970310-32dd-4e89-982e-f377a37adcb9.wav
+2026-02-15 15:49:01  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-15 15:49:02  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Extraction complete in 1.5s
+2026-02-15 15:49:02  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Output audio size: 48.06 MB
+2026-02-15 15:49:05  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Audio exceeds 25 MB — splitting into 600s chunks
+2026-02-15 15:49:05  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 1: chunk_000.wav (18.31 MB)
+2026-02-15 15:49:05  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 2: chunk_001.wav (18.31 MB)
+2026-02-15 15:49:05  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 3: chunk_002.wav (11.44 MB)
+2026-02-15 15:49:05  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Split produced 3 chunk(s)
+2026-02-15 16:01:23  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Starting audio extraction
+2026-02-15 16:01:23  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Source video : 25557f19-6294-4613-9923-8ffd7a2d94d8.mp4
+2026-02-15 16:01:23  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Target audio : 25557f19-6294-4613-9923-8ffd7a2d94d8.wav
+2026-02-15 16:01:23  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-15 16:01:24  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Extraction complete in 1.1s
+2026-02-15 16:01:24  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Output audio size: 48.06 MB
+2026-02-15 16:01:27  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Audio exceeds 25 MB — splitting into 600s chunks
+2026-02-15 16:01:27  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 1: chunk_000.wav (18.31 MB)
+2026-02-15 16:01:27  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 2: chunk_001.wav (18.31 MB)
+2026-02-15 16:01:27  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 3: chunk_002.wav (11.44 MB)
+2026-02-15 16:01:27  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Split produced 3 chunk(s)
+2026-02-15 16:21:06  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Starting audio extraction
+2026-02-15 16:21:06  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Source video : 91e37767-12bc-427c-9be0-974644688103.mp4
+2026-02-15 16:21:06  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Target audio : 91e37767-12bc-427c-9be0-974644688103.wav
+2026-02-15 16:21:06  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-15 16:21:07  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Extraction complete in 1.0s
+2026-02-15 16:21:07  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Output audio size: 48.06 MB
+2026-02-15 16:21:10  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Audio exceeds 25 MB — splitting into 600s chunks
+2026-02-15 16:21:10  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Chunk 1: chunk_000.wav (18.31 MB)
+2026-02-15 16:21:10  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Chunk 2: chunk_001.wav (18.31 MB)
+2026-02-15 16:21:10  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Chunk 3: chunk_002.wav (11.44 MB)
+2026-02-15 16:21:10  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Split produced 3 chunk(s)
+2026-02-15 17:01:26  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Starting audio extraction
+2026-02-15 17:01:26  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Source video : 381bddb2-0d9c-420d-b032-f0a891a8a450.mp4
+2026-02-15 17:01:26  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Target audio : 381bddb2-0d9c-420d-b032-f0a891a8a450.wav
+2026-02-15 17:01:26  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-15 17:01:27  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Extraction complete in 1.1s
+2026-02-15 17:01:27  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Output audio size: 48.06 MB
+2026-02-15 17:01:33  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Audio exceeds 25 MB — splitting into 600s chunks
+2026-02-15 17:01:33  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 1: chunk_000.wav (18.31 MB)
+2026-02-15 17:01:33  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 2: chunk_001.wav (18.31 MB)
+2026-02-15 17:01:33  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 3: chunk_002.wav (11.44 MB)
+2026-02-15 17:01:33  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Split produced 3 chunk(s)
+2026-02-16 05:45:32  INFO      [app.extraction]  [4093545b-1277-475b-ae11-7a71546ab308] Starting audio extraction
+2026-02-16 05:45:32  INFO      [app.extraction]  [4093545b-1277-475b-ae11-7a71546ab308] Source video : 4093545b-1277-475b-ae11-7a71546ab308.mp4
+2026-02-16 05:45:32  INFO      [app.extraction]  [4093545b-1277-475b-ae11-7a71546ab308] Target audio : 4093545b-1277-475b-ae11-7a71546ab308.wav
+2026-02-16 05:45:32  INFO      [app.extraction]  [4093545b-1277-475b-ae11-7a71546ab308] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-16 05:45:34  INFO      [app.extraction]  [4093545b-1277-475b-ae11-7a71546ab308] Extraction complete in 1.3s
+2026-02-16 05:45:34  INFO      [app.extraction]  [4093545b-1277-475b-ae11-7a71546ab308] Output audio size: 22.54 MB
+2026-02-16 05:56:00  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Starting audio extraction
+2026-02-16 05:56:00  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Source video : ee8fe428-d6a9-417b-b8a3-c0c0506c97d4.mp4
+2026-02-16 05:56:00  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Target audio : ee8fe428-d6a9-417b-b8a3-c0c0506c97d4.wav
+2026-02-16 05:56:00  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-16 05:56:01  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Extraction complete in 0.9s
+2026-02-16 05:56:01  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Output audio size: 38.02 MB
+2026-02-16 05:56:33  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Audio exceeds 25 MB — splitting into 600s chunks
+2026-02-16 05:56:33  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 1: chunk_000.wav (18.31 MB)
+2026-02-16 05:56:33  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 2: chunk_001.wav (18.31 MB)
+2026-02-16 05:56:33  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 3: chunk_002.wav (1.39 MB)
+2026-02-16 05:56:33  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Split produced 3 chunk(s)
+2026-02-16 06:07:07  INFO      [app.extraction]  [629ca295-35f6-483a-8917-6659eac987cd] Starting audio extraction
+2026-02-16 06:07:07  INFO      [app.extraction]  [629ca295-35f6-483a-8917-6659eac987cd] Source video : 629ca295-35f6-483a-8917-6659eac987cd.mp4
+2026-02-16 06:07:07  INFO      [app.extraction]  [629ca295-35f6-483a-8917-6659eac987cd] Target audio : 629ca295-35f6-483a-8917-6659eac987cd.wav
+2026-02-16 06:07:07  INFO      [app.extraction]  [629ca295-35f6-483a-8917-6659eac987cd] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-16 06:07:07  INFO      [app.extraction]  [629ca295-35f6-483a-8917-6659eac987cd] Extraction complete in 0.6s
+2026-02-16 06:07:07  INFO      [app.extraction]  [629ca295-35f6-483a-8917-6659eac987cd] Output audio size: 22.54 MB

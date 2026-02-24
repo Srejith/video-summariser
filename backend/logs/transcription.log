@@ -1,0 +1,106 @@
+2026-02-15 14:38:50  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Starting transcription
+2026-02-15 14:38:50  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Audio file  : c6c6ed6d-88f1-45e0-86e0-04945980ecb5.wav
+2026-02-15 14:38:50  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Audio size  : 48.06 MB
+2026-02-15 14:38:50  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Whisper model: whisper-1
+2026-02-15 14:38:50  WARNING   [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] File exceeds 25 MB (48.06 MB) — chunked transcription
+2026-02-15 14:38:51  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Transcribing chunk 1/3 (18.31 MB)
+2026-02-15 14:39:34  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 1 done in 43.0s — 7067 chars
+2026-02-15 14:39:34  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 1 preview: I found a note on my door. Come to Monica's quick. Bring champagne and a three Musketeers bar? Yeah, I'll take that. What's up? Monica and I are engag
+2026-02-15 14:39:34  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Transcribing chunk 2/3 (18.31 MB)
+2026-02-15 14:40:06  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 2 done in 32.4s — 6935 chars
+2026-02-15 14:40:06  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 2 preview: Well, I feel like a snack. Do you want some shortbread? It's Scottish, like you are. Oh, no thanks. I don't like anything from my Scottish heritage. W
+2026-02-15 14:40:06  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Transcribing chunk 3/3 (11.44 MB)
+2026-02-15 14:40:24  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 3 done in 18.3s — 3009 chars
+2026-02-15 14:40:24  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 3 preview: You got me. I don't know. Joey. I'm sorry. Look, I thought parents were coming. You know, your parents are coming. Chandler's parents are coming. Ross
+2026-02-15 14:40:24  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] All chunks transcribed — total 17013 chars
+2026-02-15 15:49:05  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Starting transcription
+2026-02-15 15:49:05  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Audio file  : c1970310-32dd-4e89-982e-f377a37adcb9.wav
+2026-02-15 15:49:05  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Audio size  : 48.06 MB
+2026-02-15 15:49:05  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Whisper model: whisper-1
+2026-02-15 15:49:05  WARNING   [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] File exceeds 25 MB (48.06 MB) — chunked transcription
+2026-02-15 15:49:05  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Transcribing chunk 1/3 (18.31 MB)
+2026-02-15 15:49:46  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 1 done in 40.4s — 7026 chars
+2026-02-15 15:49:46  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 1 preview: I found a note on my door. Come to Monica's quick. Bring champagne and a three Musketeers bar? Yeah, I'll take that. What's up? Monica and I are engag
+2026-02-15 15:49:46  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Transcribing chunk 2/3 (18.31 MB)
+2026-02-15 15:50:13  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 2 done in 27.9s — 6846 chars
+2026-02-15 15:50:13  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 2 preview: Well, I feel like a snack. Do you want some shortbread? It's Scottish, like you are. Oh, no thanks. I don't like anything from my Scottish heritage. W
+2026-02-15 15:50:13  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Transcribing chunk 3/3 (11.44 MB)
+2026-02-15 15:50:28  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 3 done in 14.4s — 3009 chars
+2026-02-15 15:50:28  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 3 preview: You got me. I don't know. Joey. I'm sorry. Look, I thought parents were coming. You know, your parents are coming. Chandler's parents are coming. Ross
+2026-02-15 15:50:28  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] All chunks transcribed — total 16883 chars
+2026-02-15 16:01:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Starting transcription
+2026-02-15 16:01:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Audio file  : 25557f19-6294-4613-9923-8ffd7a2d94d8.wav
+2026-02-15 16:01:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Audio size  : 48.06 MB
+2026-02-15 16:01:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Whisper model: whisper-1
+2026-02-15 16:01:27  WARNING   [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] File exceeds 25 MB (48.06 MB) — chunked transcription
+2026-02-15 16:01:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Transcribing chunk 1/3 (18.31 MB)
+2026-02-15 16:01:55  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 1 done in 28.0s — 7054 chars
+2026-02-15 16:01:55  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 1 preview: I found a note on my door. Come to Monica's quick. Bring champagne and a three Musketeers bar? Yeah, I'll take that. What's up? Monica and I are engag
+2026-02-15 16:01:55  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Transcribing chunk 2/3 (18.31 MB)
+2026-02-15 16:02:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 2 done in 32.1s — 6934 chars
+2026-02-15 16:02:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 2 preview: Well, I feel like a snack. Do you want some shortbread? It's Scottish, like you are. Oh, no thanks. I don't like anything from my Scottish heritage. W
+2026-02-15 16:02:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Transcribing chunk 3/3 (11.44 MB)
+2026-02-15 16:02:44  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 3 done in 17.4s — 3009 chars
+2026-02-15 16:02:44  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 3 preview: You got me. I don't know. Joey. I'm sorry. Look, I thought parents were coming. You know, your parents are coming. Chandler's parents are coming. Ross
+2026-02-15 16:02:44  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] All chunks transcribed — total 16999 chars
+2026-02-15 16:21:10  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Starting transcription
+2026-02-15 16:21:10  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Audio file  : 91e37767-12bc-427c-9be0-974644688103.wav
+2026-02-15 16:21:10  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Audio size  : 48.06 MB
+2026-02-15 16:21:10  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Whisper model: whisper-1
+2026-02-15 16:21:10  WARNING   [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] File exceeds 25 MB (48.06 MB) — chunked transcription
+2026-02-15 16:21:10  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Transcribing chunk 1/3 (18.31 MB)
+2026-02-15 16:21:38  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Chunk 1 done in 28.1s — 7054 chars
+2026-02-15 16:21:38  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Chunk 1 preview: I found a note on my door. Come to Monica's quick. Bring champagne and a three Musketeers bar? Yeah, I'll take that. What's up? Monica and I are engag
+2026-02-15 16:21:38  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Transcribing chunk 2/3 (18.31 MB)
+2026-02-15 16:22:07  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Chunk 2 done in 28.9s — 6846 chars
+2026-02-15 16:22:07  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Chunk 2 preview: Well, I feel like a snack. Do you want some shortbread? It's Scottish, like you are. Oh, no thanks. I don't like anything from my Scottish heritage. W
+2026-02-15 16:22:07  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Transcribing chunk 3/3 (11.44 MB)
+2026-02-15 16:22:27  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Chunk 3 done in 19.6s — 3009 chars
+2026-02-15 16:22:27  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Chunk 3 preview: You got me. I don't know. Joey. I'm sorry. Look, I thought parents were coming. You know, your parents are coming. Chandler's parents are coming. Ross
+2026-02-15 16:22:27  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] All chunks transcribed — total 16911 chars
+2026-02-15 17:01:33  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Starting transcription
+2026-02-15 17:01:33  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Audio file  : 381bddb2-0d9c-420d-b032-f0a891a8a450.wav
+2026-02-15 17:01:33  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Audio size  : 48.06 MB
+2026-02-15 17:01:33  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Whisper model: whisper-1
+2026-02-15 17:01:33  WARNING   [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] File exceeds 25 MB (48.06 MB) — chunked transcription
+2026-02-15 17:01:33  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Transcribing chunk 1/3 (18.31 MB)
+2026-02-15 17:02:17  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 1 done in 44.4s — 7062 chars
+2026-02-15 17:02:17  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 1 preview: I found a note on my door. Come to Monica's quick. Bring champagne and a three Musketeers bar? Yeah, I'll take that. What's up? Monica and I are engag
+2026-02-15 17:02:17  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Transcribing chunk 2/3 (18.31 MB)
+2026-02-15 17:02:55  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 2 done in 37.6s — 6993 chars
+2026-02-15 17:02:55  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 2 preview: Well, I feel like a snack. Do you want some shortbread? It's Scottish, like you are. Oh, no thanks. I don't like anything from my Scottish heritage. W
+2026-02-15 17:02:55  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Transcribing chunk 3/3 (11.44 MB)
+2026-02-15 17:03:15  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 3 done in 20.0s — 3009 chars
+2026-02-15 17:03:15  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 3 preview: You got me. I don't know. Joey. I'm sorry. Look, I thought parents were coming. You know, your parents are coming. Chandler's parents are coming. Ross
+2026-02-15 17:03:15  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] All chunks transcribed — total 17066 chars
+2026-02-16 05:45:52  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] Starting transcription
+2026-02-16 05:45:52  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] Audio file  : 4093545b-1277-475b-ae11-7a71546ab308.wav
+2026-02-16 05:45:52  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] Audio size  : 22.54 MB
+2026-02-16 05:45:52  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] Whisper model: whisper-1
+2026-02-16 05:45:52  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] File within 25 MB limit — single API call
+2026-02-16 05:48:25  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] Transcription complete in 153.4s
+2026-02-16 05:48:25  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] Transcript length: 6481 chars
+2026-02-16 05:48:25  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] Transcript preview: அண்ணா ஒரு காண்டுப்பு I'm pregnant I'm pregnant I'm pregnant I'm pregnant I'm pregnant I'm pregnant உன்னம் பேச எதுவும் இல்லையா? எப்படி? எப்படி என்றா? எப்படி? சந்தேகப்படுறாயே என்ன? என்ன முறைக்கிறாய்? என
+2026-02-16 05:56:33  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Starting transcription
+2026-02-16 05:56:33  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Audio file  : ee8fe428-d6a9-417b-b8a3-c0c0506c97d4.wav
+2026-02-16 05:56:33  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Audio size  : 38.02 MB
+2026-02-16 05:56:33  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Whisper model: whisper-1
+2026-02-16 05:56:33  WARNING   [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] File exceeds 25 MB (38.02 MB) — chunked transcription
+2026-02-16 05:56:33  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Transcribing chunk 1/3 (18.31 MB)
+2026-02-16 06:00:21  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 1 done in 227.9s — 5032 chars
+2026-02-16 06:00:21  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 1 preview: இது ஒன்று, அப்பப்பா சிப்பு சரியா வராது, இம்ச. ஏய் அணந்தி, சவுந்தரியாவை நீ ஏதாவது சொன்னாயா? இல்லையே, நான் எதுவும் சொல்லலையே. ஏன் என்ன ஆச்சு? இல்லை, கால
+2026-02-16 06:00:21  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Transcribing chunk 2/3 (18.31 MB)
+2026-02-16 06:04:49  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 2 done in 268.0s — 4352 chars
+2026-02-16 06:04:49  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 2 preview: சொல்லு சோசோ. என்ன விஷயம்? ஏ.. ஏ.. சொல்லு சோந்தரியா. வேலை இருக்குது லே? அண்ணா, நான்.. பிறகு சொல்லுங்கள் அண்ணா. அண்ணதே, இதோடு சையில்ஸ் வந்து நீ எப்படி த
+2026-02-16 06:04:49  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Transcribing chunk 3/3 (1.39 MB)
+2026-02-16 06:05:02  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 3 done in 13.1s — 308 chars
+2026-02-16 06:05:02  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 3 preview: வீட்டில், உன்னுடைய உன்னையுள எங்கும் வேதனையுளே பகுதி. மது கட்டதும் பன Shoeless. மெகை ஸென, மீண்டும் த்தாதது இப்படி.. நீங்கே ஒலி வந்துவிடு. டோடு இருக்கவு
+2026-02-16 06:05:02  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] All chunks transcribed — total 9694 chars
+2026-02-16 06:07:26  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] Starting transcription
+2026-02-16 06:07:26  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] Audio file  : 629ca295-35f6-483a-8917-6659eac987cd.wav
+2026-02-16 06:07:26  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] Audio size  : 22.54 MB
+2026-02-16 06:07:26  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] Whisper model: whisper-1
+2026-02-16 06:07:26  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] File within 25 MB limit — single API call
+2026-02-16 06:12:34  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] Transcription complete in 308.4s
+2026-02-16 06:12:34  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] Transcript length: 6850 chars
+2026-02-16 06:12:34  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] Transcript preview: அண்ணா ஒரு காண்டுப்பு I'm pregnant I'm pregnant pregnancy kit புரியவில்ல pregnancy kit அதற்குள்ளே இந்தாங்க உனக்கு பேச எதுவும் இல்லையா? எப்டி? எப்டி என்றா? எப்டி? சந்தேகப்படுகிறாயா என்ன? என்ன முறைக்கிறா

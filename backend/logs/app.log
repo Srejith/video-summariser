@@ -1,0 +1,916 @@
+2026-02-15 13:24:54  INFO      [app]  ============================================================
+2026-02-15 13:24:54  INFO      [app]  Video Summariser starting up
+2026-02-15 13:24:54  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 13:24:54  INFO      [app]  ============================================================
+2026-02-15 13:24:54  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 13:28:50  INFO      [app]  ============================================================
+2026-02-15 13:28:50  INFO      [app]  Video Summariser starting up
+2026-02-15 13:28:50  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 13:28:50  INFO      [app]  ============================================================
+2026-02-15 13:28:50  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 13:29:01  INFO      [app]  ============================================================
+2026-02-15 13:29:01  INFO      [app]  Video Summariser starting up
+2026-02-15 13:29:01  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 13:29:01  INFO      [app]  ============================================================
+2026-02-15 13:29:01  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 13:29:06  INFO      [app]  ============================================================
+2026-02-15 13:29:06  INFO      [app]  Video Summariser starting up
+2026-02-15 13:29:06  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 13:29:06  INFO      [app]  ============================================================
+2026-02-15 13:29:06  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 13:29:10  INFO      [app]  ============================================================
+2026-02-15 13:29:10  INFO      [app]  Video Summariser starting up
+2026-02-15 13:29:10  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 13:29:10  INFO      [app]  ============================================================
+2026-02-15 13:29:10  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 14:38:29  INFO      [app]  ============================================================
+2026-02-15 14:38:29  INFO      [app]  Video Summariser starting up
+2026-02-15 14:38:29  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 14:38:29  INFO      [app]  ============================================================
+2026-02-15 14:38:29  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 14:38:29  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 14:38:46  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-15 14:38:46  INFO      [app]  ============================================================
+2026-02-15 14:38:46  INFO      [app]  JOB c6c6ed6d-88f1-45e0-86e0-04945980ecb5  START
+2026-02-15 14:38:46  INFO      [app]  JOB c6c6ed6d-88f1-45e0-86e0-04945980ecb5  file=test-video.mp4  format=.mp4
+2026-02-15 14:38:46  INFO      [app]  JOB c6c6ed6d-88f1-45e0-86e0-04945980ecb5  video saved — 34.28 MB
+2026-02-15 14:38:46  INFO      [app]  JOB c6c6ed6d-88f1-45e0-86e0-04945980ecb5  STAGE 1/4: audio extraction  →  see audio_extraction.log
+2026-02-15 14:38:46  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Starting audio extraction
+2026-02-15 14:38:46  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Source video : c6c6ed6d-88f1-45e0-86e0-04945980ecb5.mp4
+2026-02-15 14:38:46  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Target audio : c6c6ed6d-88f1-45e0-86e0-04945980ecb5.wav
+2026-02-15 14:38:46  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-15 14:38:47  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Extraction complete in 1.5s
+2026-02-15 14:38:47  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Output audio size: 48.06 MB
+2026-02-15 14:38:47  INFO      [app]  JOB c6c6ed6d-88f1-45e0-86e0-04945980ecb5  STAGE 1/4: audio extraction  DONE
+2026-02-15 14:38:47  INFO      [app]  JOB c6c6ed6d-88f1-45e0-86e0-04945980ecb5  STAGE 2/4: cast analysis  →  see face_analysis.log
+2026-02-15 14:38:47  INFO      [app.face]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Starting cast analysis
+2026-02-15 14:38:47  INFO      [app.face]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Extracting frames (1 per 10s)
+2026-02-15 14:38:48  INFO      [app.face]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Extracted 157 frames
+2026-02-15 14:38:50  INFO      [app.face]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Total face instances detected: 36
+2026-02-15 14:38:50  INFO      [app.face]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Unique faces after clustering: 9
+2026-02-15 14:38:50  INFO      [app.face]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Top face: 21 appearances (13.4%)
+2026-02-15 14:38:50  INFO      [app.face]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-15 14:38:50  INFO      [app]  JOB c6c6ed6d-88f1-45e0-86e0-04945980ecb5  STAGE 2/4: cast analysis  DONE (9 faces, 0 TMDB cast)
+2026-02-15 14:38:50  INFO      [app]  JOB c6c6ed6d-88f1-45e0-86e0-04945980ecb5  STAGE 3/4: transcription  →  see transcription.log
+2026-02-15 14:38:50  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Starting transcription
+2026-02-15 14:38:50  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Audio file  : c6c6ed6d-88f1-45e0-86e0-04945980ecb5.wav
+2026-02-15 14:38:50  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Audio size  : 48.06 MB
+2026-02-15 14:38:50  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Whisper model: whisper-1
+2026-02-15 14:38:50  WARNING   [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] File exceeds 25 MB (48.06 MB) — chunked transcription
+2026-02-15 14:38:50  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Audio exceeds 25 MB — splitting into 600s chunks
+2026-02-15 14:38:51  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 1: chunk_000.wav (18.31 MB)
+2026-02-15 14:38:51  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 2: chunk_001.wav (18.31 MB)
+2026-02-15 14:38:51  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 3: chunk_002.wav (11.44 MB)
+2026-02-15 14:38:51  INFO      [app.extraction]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Split produced 3 chunk(s)
+2026-02-15 14:38:51  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Transcribing chunk 1/3 (18.31 MB)
+2026-02-15 14:39:34  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 1 done in 43.0s — 7067 chars
+2026-02-15 14:39:34  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 1 preview: I found a note on my door. Come to Monica's quick. Bring champagne and a three Musketeers bar? Yeah, I'll take that. What's up? Monica and I are engag
+2026-02-15 14:39:34  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Transcribing chunk 2/3 (18.31 MB)
+2026-02-15 14:40:06  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 2 done in 32.4s — 6935 chars
+2026-02-15 14:40:06  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 2 preview: Well, I feel like a snack. Do you want some shortbread? It's Scottish, like you are. Oh, no thanks. I don't like anything from my Scottish heritage. W
+2026-02-15 14:40:06  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Transcribing chunk 3/3 (11.44 MB)
+2026-02-15 14:40:24  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 3 done in 18.3s — 3009 chars
+2026-02-15 14:40:24  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Chunk 3 preview: You got me. I don't know. Joey. I'm sorry. Look, I thought parents were coming. You know, your parents are coming. Chandler's parents are coming. Ross
+2026-02-15 14:40:24  INFO      [app.transcription]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] All chunks transcribed — total 17013 chars
+2026-02-15 14:40:24  INFO      [app]  JOB c6c6ed6d-88f1-45e0-86e0-04945980ecb5  STAGE 3/4: transcription  DONE (17013 chars)
+2026-02-15 14:40:24  INFO      [app]  JOB c6c6ed6d-88f1-45e0-86e0-04945980ecb5  STAGE 4/4: summarisation  →  see summarisation.log
+2026-02-15 14:40:24  INFO      [app.summarisation]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Starting summarisation
+2026-02-15 14:40:24  INFO      [app.summarisation]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Transcript length : 17013 chars
+2026-02-15 14:40:24  INFO      [app.summarisation]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Model             : gpt-4o-mini
+2026-02-15 14:40:24  INFO      [app.summarisation]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Max tokens        : 500
+2026-02-15 14:40:24  INFO      [app.summarisation]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Max words         : 200
+2026-02-15 14:40:24  INFO      [app.summarisation]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Temperature       : 0.3
+2026-02-15 14:40:24  INFO      [app.summarisation]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] System prompt     : You are a content summarisation assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Keep the summary within 200 words.
+2026-02-15 14:40:33  INFO      [app.summarisation]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Summary generated in 9.0s
+2026-02-15 14:40:33  INFO      [app.summarisation]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Summary length: 1185 chars
+2026-02-15 14:40:33  INFO      [app.summarisation]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Token usage — prompt: 4354, completion: 217, total: 4571
+2026-02-15 14:40:33  INFO      [app.summarisation]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Summary:
+In this lively video transcript, the excitement of Monica and Chandler's engagement unfolds, leading to a series of humorous and heartfelt moments among friends. Monica receives a note prompting her to gather with friends, where she joyfully announces her engagement to Chandler, sparking a mix of congratulations and playful banter. However, the celebration takes a turn as Monica expresses concern about her "thunder being stolen" by Ross's unexpected kiss with Rachel, leading to a comedic discussion about wedding plans and family dynamics.
+
+As the group navigates wedding preparations, Monica discovers her parents spent her wedding fund on a beach house, adding to her stress. Meanwhile, Chandler struggles with taking a good engagement photo, prompting a humorous photo shoot. Joey offers to officiate their wedding, showcasing his enthusiasm and commitment to the couple. The narrative culminates in a touching wedding ceremony, where Monica and Chandler exchange vows, affirming their love and commitment to each other, surrounded by their friends. The overall tone is a blend of humor, friendship, and the joy of love, capturing the essence of their journey towards marriage.
+2026-02-15 14:40:33  INFO      [app]  JOB c6c6ed6d-88f1-45e0-86e0-04945980ecb5  STAGE 4/4: summarisation  DONE (1185 chars)
+2026-02-15 14:40:33  INFO      [app]  JOB c6c6ed6d-88f1-45e0-86e0-04945980ecb5  COMPLETE
+2026-02-15 14:40:33  INFO      [app]  ============================================================
+2026-02-15 14:40:33  INFO      [app]  RESPONSE POST /summarise  status=200  107215ms
+2026-02-15 14:50:00  INFO      [app]  ============================================================
+2026-02-15 14:50:00  INFO      [app]  Video Summariser starting up
+2026-02-15 14:50:00  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 14:50:00  INFO      [app]  ============================================================
+2026-02-15 14:50:00  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 14:50:00  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 14:50:07  INFO      [app]  ============================================================
+2026-02-15 14:50:07  INFO      [app]  Video Summariser starting up
+2026-02-15 14:50:07  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 14:50:07  INFO      [app]  ============================================================
+2026-02-15 14:50:07  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 14:50:07  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 14:50:15  INFO      [app]  ============================================================
+2026-02-15 14:50:15  INFO      [app]  Video Summariser starting up
+2026-02-15 14:50:15  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 14:50:15  INFO      [app]  ============================================================
+2026-02-15 14:50:15  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 14:50:15  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 14:50:23  INFO      [app]  ============================================================
+2026-02-15 14:50:23  INFO      [app]  Video Summariser starting up
+2026-02-15 14:50:23  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 14:50:23  INFO      [app]  ============================================================
+2026-02-15 14:50:23  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 14:50:23  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 15:49:01  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-15 15:49:01  INFO      [app]  ============================================================
+2026-02-15 15:49:01  INFO      [app]  JOB c1970310-32dd-4e89-982e-f377a37adcb9  START
+2026-02-15 15:49:01  INFO      [app]  JOB c1970310-32dd-4e89-982e-f377a37adcb9  file=test-video.mp4  format=.mp4
+2026-02-15 15:49:01  INFO      [app]  JOB c1970310-32dd-4e89-982e-f377a37adcb9  feature flags: {'summarisation': False}
+2026-02-15 15:49:01  INFO      [app]  JOB c1970310-32dd-4e89-982e-f377a37adcb9  show_title=Friends
+2026-02-15 15:49:01  INFO      [app]  JOB c1970310-32dd-4e89-982e-f377a37adcb9  video saved — 34.28 MB
+2026-02-15 15:49:01  INFO      [app]  JOB c1970310-32dd-4e89-982e-f377a37adcb9  STAGE 1/4: audio extraction  →  see audio_extraction.log
+2026-02-15 15:49:01  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Starting audio extraction
+2026-02-15 15:49:01  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Source video : c1970310-32dd-4e89-982e-f377a37adcb9.mp4
+2026-02-15 15:49:01  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Target audio : c1970310-32dd-4e89-982e-f377a37adcb9.wav
+2026-02-15 15:49:01  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-15 15:49:02  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Extraction complete in 1.5s
+2026-02-15 15:49:02  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Output audio size: 48.06 MB
+2026-02-15 15:49:02  INFO      [app]  JOB c1970310-32dd-4e89-982e-f377a37adcb9  STAGE 1/4: audio extraction  DONE
+2026-02-15 15:49:02  INFO      [app]  JOB c1970310-32dd-4e89-982e-f377a37adcb9  STAGE 2/4: cast analysis  →  see face_analysis.log
+2026-02-15 15:49:02  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Starting cast analysis
+2026-02-15 15:49:02  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Extracting frames (1 per 10s)
+2026-02-15 15:49:03  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Extracted 157 frames
+2026-02-15 15:49:05  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Total face instances detected: 36
+2026-02-15 15:49:05  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Unique faces after clustering: 9
+2026-02-15 15:49:05  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Top face: 21 appearances (13.4%)
+2026-02-15 15:49:05  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Searching TMDB for 'Friends'
+2026-02-15 15:49:05  ERROR     [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] TMDB search error: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/search/multi?api_key=c22f4dd6ed168b89c6d1ee99ebbe2242&query=Friends (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+2026-02-15 15:49:05  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-15 15:49:05  INFO      [app]  JOB c1970310-32dd-4e89-982e-f377a37adcb9  STAGE 2/4: cast analysis  DONE (9 faces, 0 TMDB cast)
+2026-02-15 15:49:05  INFO      [app]  JOB c1970310-32dd-4e89-982e-f377a37adcb9  STAGE 3/4: transcription  →  see transcription.log
+2026-02-15 15:49:05  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Starting transcription
+2026-02-15 15:49:05  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Audio file  : c1970310-32dd-4e89-982e-f377a37adcb9.wav
+2026-02-15 15:49:05  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Audio size  : 48.06 MB
+2026-02-15 15:49:05  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Whisper model: whisper-1
+2026-02-15 15:49:05  WARNING   [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] File exceeds 25 MB (48.06 MB) — chunked transcription
+2026-02-15 15:49:05  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Audio exceeds 25 MB — splitting into 600s chunks
+2026-02-15 15:49:05  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 1: chunk_000.wav (18.31 MB)
+2026-02-15 15:49:05  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 2: chunk_001.wav (18.31 MB)
+2026-02-15 15:49:05  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 3: chunk_002.wav (11.44 MB)
+2026-02-15 15:49:05  INFO      [app.extraction]  [c1970310-32dd-4e89-982e-f377a37adcb9] Split produced 3 chunk(s)
+2026-02-15 15:49:05  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Transcribing chunk 1/3 (18.31 MB)
+2026-02-15 15:49:46  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 1 done in 40.4s — 7026 chars
+2026-02-15 15:49:46  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 1 preview: I found a note on my door. Come to Monica's quick. Bring champagne and a three Musketeers bar? Yeah, I'll take that. What's up? Monica and I are engag
+2026-02-15 15:49:46  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Transcribing chunk 2/3 (18.31 MB)
+2026-02-15 15:50:13  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 2 done in 27.9s — 6846 chars
+2026-02-15 15:50:13  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 2 preview: Well, I feel like a snack. Do you want some shortbread? It's Scottish, like you are. Oh, no thanks. I don't like anything from my Scottish heritage. W
+2026-02-15 15:50:13  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Transcribing chunk 3/3 (11.44 MB)
+2026-02-15 15:50:28  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 3 done in 14.4s — 3009 chars
+2026-02-15 15:50:28  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] Chunk 3 preview: You got me. I don't know. Joey. I'm sorry. Look, I thought parents were coming. You know, your parents are coming. Chandler's parents are coming. Ross
+2026-02-15 15:50:28  INFO      [app.transcription]  [c1970310-32dd-4e89-982e-f377a37adcb9] All chunks transcribed — total 16883 chars
+2026-02-15 15:50:28  INFO      [app]  JOB c1970310-32dd-4e89-982e-f377a37adcb9  STAGE 3/4: transcription  DONE (16883 chars)
+2026-02-15 15:50:28  INFO      [app]  JOB c1970310-32dd-4e89-982e-f377a37adcb9  STAGE 4/4: summarisation  SKIPPED (feature flag off)
+2026-02-15 15:50:28  INFO      [app]  JOB c1970310-32dd-4e89-982e-f377a37adcb9  COMPLETE
+2026-02-15 15:50:28  INFO      [app]  ============================================================
+2026-02-15 15:50:28  INFO      [app]  RESPONSE POST /summarise  status=200  87118ms
+2026-02-15 15:54:46  INFO      [app]  ============================================================
+2026-02-15 15:54:46  INFO      [app]  Video Summariser starting up
+2026-02-15 15:54:46  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 15:54:46  INFO      [app]  ============================================================
+2026-02-15 15:54:46  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 15:54:46  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 15:54:54  INFO      [app]  ============================================================
+2026-02-15 15:54:54  INFO      [app]  Video Summariser starting up
+2026-02-15 15:54:54  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 15:54:54  INFO      [app]  ============================================================
+2026-02-15 15:54:54  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 15:54:54  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 15:55:26  INFO      [app]  ============================================================
+2026-02-15 15:55:26  INFO      [app]  Video Summariser starting up
+2026-02-15 15:55:26  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 15:55:26  INFO      [app]  ============================================================
+2026-02-15 15:55:26  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 15:55:26  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 16:01:15  INFO      [app]  ============================================================
+2026-02-15 16:01:15  INFO      [app]  Video Summariser starting up
+2026-02-15 16:01:15  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 16:01:15  INFO      [app]  ============================================================
+2026-02-15 16:01:15  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 16:01:15  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 16:01:23  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-15 16:01:23  INFO      [app]  ============================================================
+2026-02-15 16:01:23  INFO      [app]  JOB 25557f19-6294-4613-9923-8ffd7a2d94d8  START
+2026-02-15 16:01:23  INFO      [app]  JOB 25557f19-6294-4613-9923-8ffd7a2d94d8  file=test-video.mp4  format=.mp4
+2026-02-15 16:01:23  INFO      [app]  JOB 25557f19-6294-4613-9923-8ffd7a2d94d8  feature flags: {'summarisation': False}
+2026-02-15 16:01:23  INFO      [app]  JOB 25557f19-6294-4613-9923-8ffd7a2d94d8  video saved — 34.28 MB
+2026-02-15 16:01:23  INFO      [app]  JOB 25557f19-6294-4613-9923-8ffd7a2d94d8  STAGE 1/4: audio extraction  →  see audio_extraction.log
+2026-02-15 16:01:23  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Starting audio extraction
+2026-02-15 16:01:23  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Source video : 25557f19-6294-4613-9923-8ffd7a2d94d8.mp4
+2026-02-15 16:01:23  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Target audio : 25557f19-6294-4613-9923-8ffd7a2d94d8.wav
+2026-02-15 16:01:23  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-15 16:01:24  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Extraction complete in 1.1s
+2026-02-15 16:01:24  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Output audio size: 48.06 MB
+2026-02-15 16:01:24  INFO      [app]  JOB 25557f19-6294-4613-9923-8ffd7a2d94d8  STAGE 1/4: audio extraction  DONE
+2026-02-15 16:01:24  INFO      [app]  JOB 25557f19-6294-4613-9923-8ffd7a2d94d8  STAGE 2/4: cast analysis  →  see face_analysis.log
+2026-02-15 16:01:24  INFO      [app.face]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Starting cast analysis
+2026-02-15 16:01:24  INFO      [app.face]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Extracting frames (1 per 10s)
+2026-02-15 16:01:25  INFO      [app.face]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Extracted 157 frames
+2026-02-15 16:01:27  INFO      [app.face]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Total face instances detected: 36
+2026-02-15 16:01:27  INFO      [app.face]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Unique faces after clustering: 9
+2026-02-15 16:01:27  INFO      [app.face]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Top face: 21 appearances (13.4%)
+2026-02-15 16:01:27  INFO      [app.face]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-15 16:01:27  INFO      [app]  JOB 25557f19-6294-4613-9923-8ffd7a2d94d8  STAGE 2/4: cast analysis  DONE (9 faces, 0 TMDB cast)
+2026-02-15 16:01:27  INFO      [app]  JOB 25557f19-6294-4613-9923-8ffd7a2d94d8  STAGE 3/4: transcription  →  see transcription.log
+2026-02-15 16:01:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Starting transcription
+2026-02-15 16:01:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Audio file  : 25557f19-6294-4613-9923-8ffd7a2d94d8.wav
+2026-02-15 16:01:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Audio size  : 48.06 MB
+2026-02-15 16:01:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Whisper model: whisper-1
+2026-02-15 16:01:27  WARNING   [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] File exceeds 25 MB (48.06 MB) — chunked transcription
+2026-02-15 16:01:27  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Audio exceeds 25 MB — splitting into 600s chunks
+2026-02-15 16:01:27  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 1: chunk_000.wav (18.31 MB)
+2026-02-15 16:01:27  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 2: chunk_001.wav (18.31 MB)
+2026-02-15 16:01:27  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 3: chunk_002.wav (11.44 MB)
+2026-02-15 16:01:27  INFO      [app.extraction]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Split produced 3 chunk(s)
+2026-02-15 16:01:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Transcribing chunk 1/3 (18.31 MB)
+2026-02-15 16:01:55  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 1 done in 28.0s — 7054 chars
+2026-02-15 16:01:55  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 1 preview: I found a note on my door. Come to Monica's quick. Bring champagne and a three Musketeers bar? Yeah, I'll take that. What's up? Monica and I are engag
+2026-02-15 16:01:55  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Transcribing chunk 2/3 (18.31 MB)
+2026-02-15 16:02:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 2 done in 32.1s — 6934 chars
+2026-02-15 16:02:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 2 preview: Well, I feel like a snack. Do you want some shortbread? It's Scottish, like you are. Oh, no thanks. I don't like anything from my Scottish heritage. W
+2026-02-15 16:02:27  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Transcribing chunk 3/3 (11.44 MB)
+2026-02-15 16:02:44  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 3 done in 17.4s — 3009 chars
+2026-02-15 16:02:44  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Chunk 3 preview: You got me. I don't know. Joey. I'm sorry. Look, I thought parents were coming. You know, your parents are coming. Chandler's parents are coming. Ross
+2026-02-15 16:02:44  INFO      [app.transcription]  [25557f19-6294-4613-9923-8ffd7a2d94d8] All chunks transcribed — total 16999 chars
+2026-02-15 16:02:44  INFO      [app]  JOB 25557f19-6294-4613-9923-8ffd7a2d94d8  STAGE 3/4: transcription  DONE (16999 chars)
+2026-02-15 16:02:44  INFO      [app]  JOB 25557f19-6294-4613-9923-8ffd7a2d94d8  STAGE 4/4: summarisation  SKIPPED (feature flag off)
+2026-02-15 16:02:44  INFO      [app]  JOB 25557f19-6294-4613-9923-8ffd7a2d94d8  COMPLETE
+2026-02-15 16:02:44  INFO      [app]  ============================================================
+2026-02-15 16:02:44  INFO      [app]  RESPONSE POST /summarise  status=200  81058ms
+2026-02-15 16:03:35  INFO      [app]  ============================================================
+2026-02-15 16:03:35  INFO      [app]  Video Summariser starting up
+2026-02-15 16:03:35  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 16:03:35  INFO      [app]  ============================================================
+2026-02-15 16:03:35  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 16:03:35  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 16:17:50  INFO      [app]  ============================================================
+2026-02-15 16:17:50  INFO      [app]  Video Summariser starting up
+2026-02-15 16:17:50  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 16:17:50  INFO      [app]  ============================================================
+2026-02-15 16:17:50  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 16:17:50  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 16:17:51  INFO      [app]  ============================================================
+2026-02-15 16:17:51  INFO      [app]  Video Summariser starting up
+2026-02-15 16:17:51  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 16:17:51  INFO      [app]  ============================================================
+2026-02-15 16:17:51  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 16:17:51  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 16:20:27  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-15 16:20:27  INFO      [app]  ============================================================
+2026-02-15 16:20:27  INFO      [app]  JOB ff770672-d2c3-4f4c-bd91-3068c418fcb9  START
+2026-02-15 16:20:27  INFO      [app]  JOB ff770672-d2c3-4f4c-bd91-3068c418fcb9  file=test-video.mp4  format=.mp4
+2026-02-15 16:20:27  INFO      [app]  JOB ff770672-d2c3-4f4c-bd91-3068c418fcb9  feature flags: {'summarisation': False}
+2026-02-15 16:20:27  INFO      [app]  JOB ff770672-d2c3-4f4c-bd91-3068c418fcb9  video saved — 34.28 MB
+2026-02-15 16:20:27  INFO      [app]  JOB ff770672-d2c3-4f4c-bd91-3068c418fcb9  STAGE 1/4: audio extraction  SKIPPED (summarisation flag off)
+2026-02-15 16:20:27  INFO      [app]  JOB ff770672-d2c3-4f4c-bd91-3068c418fcb9  STAGE 2/4: cast analysis  →  see face_analysis.log
+2026-02-15 16:20:27  INFO      [app.face]  [ff770672-d2c3-4f4c-bd91-3068c418fcb9] Starting cast analysis
+2026-02-15 16:20:27  INFO      [app.face]  [ff770672-d2c3-4f4c-bd91-3068c418fcb9] Extracting frames (1 per 10s)
+2026-02-15 16:20:28  INFO      [app.face]  [ff770672-d2c3-4f4c-bd91-3068c418fcb9] Extracted 157 frames
+2026-02-15 16:20:30  INFO      [app.face]  [ff770672-d2c3-4f4c-bd91-3068c418fcb9] Total face instances detected: 36
+2026-02-15 16:20:30  INFO      [app.face]  [ff770672-d2c3-4f4c-bd91-3068c418fcb9] Unique faces after clustering: 9
+2026-02-15 16:20:30  INFO      [app.face]  [ff770672-d2c3-4f4c-bd91-3068c418fcb9] Top face: 21 appearances (13.4%)
+2026-02-15 16:20:30  INFO      [app.face]  [ff770672-d2c3-4f4c-bd91-3068c418fcb9] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-15 16:20:30  INFO      [app]  JOB ff770672-d2c3-4f4c-bd91-3068c418fcb9  STAGE 2/4: cast analysis  DONE (9 faces, 0 TMDB cast)
+2026-02-15 16:20:30  INFO      [app]  JOB ff770672-d2c3-4f4c-bd91-3068c418fcb9  STAGES 3+4/4: transcription + summarisation  SKIPPED (flag off)
+2026-02-15 16:20:30  INFO      [app]  JOB ff770672-d2c3-4f4c-bd91-3068c418fcb9  COMPLETE
+2026-02-15 16:20:30  INFO      [app]  ============================================================
+2026-02-15 16:20:30  INFO      [app]  RESPONSE POST /summarise  status=200  2572ms
+2026-02-15 16:20:48  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-15 16:20:48  INFO      [app]  ============================================================
+2026-02-15 16:20:48  INFO      [app]  JOB 2bdc9c3a-b942-4361-a2a1-4bf744610a34  START
+2026-02-15 16:20:48  INFO      [app]  JOB 2bdc9c3a-b942-4361-a2a1-4bf744610a34  file=test-video.mp4  format=.mp4
+2026-02-15 16:20:48  INFO      [app]  JOB 2bdc9c3a-b942-4361-a2a1-4bf744610a34  feature flags: {'summarisation': False}
+2026-02-15 16:20:48  INFO      [app]  JOB 2bdc9c3a-b942-4361-a2a1-4bf744610a34  show_title=Friends
+2026-02-15 16:20:48  INFO      [app]  JOB 2bdc9c3a-b942-4361-a2a1-4bf744610a34  video saved — 34.28 MB
+2026-02-15 16:20:48  INFO      [app]  JOB 2bdc9c3a-b942-4361-a2a1-4bf744610a34  STAGE 1/4: audio extraction  SKIPPED (summarisation flag off)
+2026-02-15 16:20:48  INFO      [app]  JOB 2bdc9c3a-b942-4361-a2a1-4bf744610a34  STAGE 2/4: cast analysis  →  see face_analysis.log
+2026-02-15 16:20:48  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Starting cast analysis
+2026-02-15 16:20:48  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Extracting frames (1 per 10s)
+2026-02-15 16:20:49  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Extracted 157 frames
+2026-02-15 16:20:51  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Total face instances detected: 36
+2026-02-15 16:20:51  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Unique faces after clustering: 9
+2026-02-15 16:20:51  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Top face: 21 appearances (13.4%)
+2026-02-15 16:20:51  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Searching TMDB for 'Friends'
+2026-02-15 16:20:51  ERROR     [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] TMDB search error: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/search/multi?api_key=c22f4dd6ed168b89c6d1ee99ebbe2242&query=Friends (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+2026-02-15 16:20:51  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-15 16:20:51  INFO      [app]  JOB 2bdc9c3a-b942-4361-a2a1-4bf744610a34  STAGE 2/4: cast analysis  DONE (9 faces, 0 TMDB cast)
+2026-02-15 16:20:51  INFO      [app]  JOB 2bdc9c3a-b942-4361-a2a1-4bf744610a34  STAGES 3+4/4: transcription + summarisation  SKIPPED (flag off)
+2026-02-15 16:20:51  INFO      [app]  JOB 2bdc9c3a-b942-4361-a2a1-4bf744610a34  COMPLETE
+2026-02-15 16:20:51  INFO      [app]  ============================================================
+2026-02-15 16:20:51  INFO      [app]  RESPONSE POST /summarise  status=200  3213ms
+2026-02-15 16:21:06  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-15 16:21:06  INFO      [app]  ============================================================
+2026-02-15 16:21:06  INFO      [app]  JOB 91e37767-12bc-427c-9be0-974644688103  START
+2026-02-15 16:21:06  INFO      [app]  JOB 91e37767-12bc-427c-9be0-974644688103  file=test-video.mp4  format=.mp4
+2026-02-15 16:21:06  INFO      [app]  JOB 91e37767-12bc-427c-9be0-974644688103  feature flags: {'summarisation': True}
+2026-02-15 16:21:06  INFO      [app]  JOB 91e37767-12bc-427c-9be0-974644688103  video saved — 34.28 MB
+2026-02-15 16:21:06  INFO      [app]  JOB 91e37767-12bc-427c-9be0-974644688103  STAGE 1/4: audio extraction  →  see audio_extraction.log
+2026-02-15 16:21:06  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Starting audio extraction
+2026-02-15 16:21:06  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Source video : 91e37767-12bc-427c-9be0-974644688103.mp4
+2026-02-15 16:21:06  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Target audio : 91e37767-12bc-427c-9be0-974644688103.wav
+2026-02-15 16:21:06  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-15 16:21:07  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Extraction complete in 1.0s
+2026-02-15 16:21:07  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Output audio size: 48.06 MB
+2026-02-15 16:21:07  INFO      [app]  JOB 91e37767-12bc-427c-9be0-974644688103  STAGE 1/4: audio extraction  DONE
+2026-02-15 16:21:07  INFO      [app]  JOB 91e37767-12bc-427c-9be0-974644688103  STAGE 2/4: cast analysis  →  see face_analysis.log
+2026-02-15 16:21:07  INFO      [app.face]  [91e37767-12bc-427c-9be0-974644688103] Starting cast analysis
+2026-02-15 16:21:07  INFO      [app.face]  [91e37767-12bc-427c-9be0-974644688103] Extracting frames (1 per 10s)
+2026-02-15 16:21:08  INFO      [app.face]  [91e37767-12bc-427c-9be0-974644688103] Extracted 157 frames
+2026-02-15 16:21:10  INFO      [app.face]  [91e37767-12bc-427c-9be0-974644688103] Total face instances detected: 36
+2026-02-15 16:21:10  INFO      [app.face]  [91e37767-12bc-427c-9be0-974644688103] Unique faces after clustering: 9
+2026-02-15 16:21:10  INFO      [app.face]  [91e37767-12bc-427c-9be0-974644688103] Top face: 21 appearances (13.4%)
+2026-02-15 16:21:10  INFO      [app.face]  [91e37767-12bc-427c-9be0-974644688103] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-15 16:21:10  INFO      [app]  JOB 91e37767-12bc-427c-9be0-974644688103  STAGE 2/4: cast analysis  DONE (9 faces, 0 TMDB cast)
+2026-02-15 16:21:10  INFO      [app]  JOB 91e37767-12bc-427c-9be0-974644688103  STAGE 3/4: transcription  →  see transcription.log
+2026-02-15 16:21:10  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Starting transcription
+2026-02-15 16:21:10  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Audio file  : 91e37767-12bc-427c-9be0-974644688103.wav
+2026-02-15 16:21:10  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Audio size  : 48.06 MB
+2026-02-15 16:21:10  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Whisper model: whisper-1
+2026-02-15 16:21:10  WARNING   [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] File exceeds 25 MB (48.06 MB) — chunked transcription
+2026-02-15 16:21:10  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Audio exceeds 25 MB — splitting into 600s chunks
+2026-02-15 16:21:10  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Chunk 1: chunk_000.wav (18.31 MB)
+2026-02-15 16:21:10  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Chunk 2: chunk_001.wav (18.31 MB)
+2026-02-15 16:21:10  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Chunk 3: chunk_002.wav (11.44 MB)
+2026-02-15 16:21:10  INFO      [app.extraction]  [91e37767-12bc-427c-9be0-974644688103] Split produced 3 chunk(s)
+2026-02-15 16:21:10  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Transcribing chunk 1/3 (18.31 MB)
+2026-02-15 16:21:38  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Chunk 1 done in 28.1s — 7054 chars
+2026-02-15 16:21:38  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Chunk 1 preview: I found a note on my door. Come to Monica's quick. Bring champagne and a three Musketeers bar? Yeah, I'll take that. What's up? Monica and I are engag
+2026-02-15 16:21:38  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Transcribing chunk 2/3 (18.31 MB)
+2026-02-15 16:22:07  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Chunk 2 done in 28.9s — 6846 chars
+2026-02-15 16:22:07  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Chunk 2 preview: Well, I feel like a snack. Do you want some shortbread? It's Scottish, like you are. Oh, no thanks. I don't like anything from my Scottish heritage. W
+2026-02-15 16:22:07  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Transcribing chunk 3/3 (11.44 MB)
+2026-02-15 16:22:27  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Chunk 3 done in 19.6s — 3009 chars
+2026-02-15 16:22:27  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] Chunk 3 preview: You got me. I don't know. Joey. I'm sorry. Look, I thought parents were coming. You know, your parents are coming. Chandler's parents are coming. Ross
+2026-02-15 16:22:27  INFO      [app.transcription]  [91e37767-12bc-427c-9be0-974644688103] All chunks transcribed — total 16911 chars
+2026-02-15 16:22:27  INFO      [app]  JOB 91e37767-12bc-427c-9be0-974644688103  STAGE 3/4: transcription  DONE (16911 chars)
+2026-02-15 16:22:27  INFO      [app]  JOB 91e37767-12bc-427c-9be0-974644688103  STAGE 4/4: summarisation  →  see summarisation.log
+2026-02-15 16:22:27  INFO      [app.summarisation]  [91e37767-12bc-427c-9be0-974644688103] Starting summarisation
+2026-02-15 16:22:27  INFO      [app.summarisation]  [91e37767-12bc-427c-9be0-974644688103] Transcript length : 16911 chars
+2026-02-15 16:22:27  INFO      [app.summarisation]  [91e37767-12bc-427c-9be0-974644688103] Model             : gpt-4o-mini
+2026-02-15 16:22:27  INFO      [app.summarisation]  [91e37767-12bc-427c-9be0-974644688103] Max tokens        : 500
+2026-02-15 16:22:27  INFO      [app.summarisation]  [91e37767-12bc-427c-9be0-974644688103] Max words         : 200
+2026-02-15 16:22:27  INFO      [app.summarisation]  [91e37767-12bc-427c-9be0-974644688103] Temperature       : 0.3
+2026-02-15 16:22:27  INFO      [app.summarisation]  [91e37767-12bc-427c-9be0-974644688103] System prompt     : You are a content summarisation assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Keep the summary within 200 words.
+2026-02-15 16:22:33  INFO      [app.summarisation]  [91e37767-12bc-427c-9be0-974644688103] Summary generated in 6.7s
+2026-02-15 16:22:33  INFO      [app.summarisation]  [91e37767-12bc-427c-9be0-974644688103] Summary length: 1169 chars
+2026-02-15 16:22:33  INFO      [app.summarisation]  [91e37767-12bc-427c-9be0-974644688103] Token usage — prompt: 4295, completion: 207, total: 4502
+2026-02-15 16:22:33  INFO      [app.summarisation]  [91e37767-12bc-427c-9be0-974644688103] Summary:
+In this lively and humorous transcript, the characters celebrate Monica's engagement to Chandler, leading to a series of comedic interactions and revelations among their friends. The excitement builds as Monica announces her engagement, only to find that Ross and Rachel's kiss has unintentionally overshadowed her moment. The group navigates wedding planning chaos, including discussions about a wedding fund that has been spent on a beach house instead. 
+
+As they prepare for the wedding, Chandler struggles with taking a good photo for their engagement announcement, leading to playful banter about their relationship. Joey offers to officiate the wedding, adding a personal touch to the ceremony. Amidst the wedding preparations, Monica and Chandler confront family dynamics and guest lists, highlighting the challenges of planning a wedding.
+
+The narrative culminates in a heartfelt wedding ceremony where Monica and Chandler exchange vows, expressing their love and commitment to each other. Joey, as the officiant, adds humor to the proceedings, and the couple is joyfully pronounced husband and wife, celebrating their love amidst the chaos of wedding planning.
+2026-02-15 16:22:33  INFO      [app]  JOB 91e37767-12bc-427c-9be0-974644688103  STAGE 4/4: summarisation  DONE (1169 chars)
+2026-02-15 16:22:33  INFO      [app]  JOB 91e37767-12bc-427c-9be0-974644688103  COMPLETE
+2026-02-15 16:22:33  INFO      [app]  ============================================================
+2026-02-15 16:22:33  INFO      [app]  RESPONSE POST /summarise  status=200  87042ms
+2026-02-15 16:22:47  INFO      [app]  ============================================================
+2026-02-15 16:22:47  INFO      [app]  Video Summariser starting up
+2026-02-15 16:22:47  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 16:22:47  INFO      [app]  ============================================================
+2026-02-15 16:22:47  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 16:22:48  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 16:24:10  INFO      [app]  ============================================================
+2026-02-15 16:24:10  INFO      [app]  Video Summariser starting up
+2026-02-15 16:24:10  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 16:24:10  INFO      [app]  ============================================================
+2026-02-15 16:24:10  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 16:24:10  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 16:24:50  INFO      [app]  ============================================================
+2026-02-15 16:24:50  INFO      [app]  Video Summariser starting up
+2026-02-15 16:24:50  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 16:24:50  INFO      [app]  ============================================================
+2026-02-15 16:24:50  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 16:24:50  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 16:24:58  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-15 16:24:58  INFO      [app]  ============================================================
+2026-02-15 16:24:58  INFO      [app]  JOB ba0369bf-c1b4-4437-815e-2edbcfd07169  START
+2026-02-15 16:24:58  INFO      [app]  JOB ba0369bf-c1b4-4437-815e-2edbcfd07169  file=test-video.mp4  format=.mp4
+2026-02-15 16:24:58  INFO      [app]  JOB ba0369bf-c1b4-4437-815e-2edbcfd07169  feature flags: {'summarisation': False}
+2026-02-15 16:24:58  INFO      [app]  JOB ba0369bf-c1b4-4437-815e-2edbcfd07169  show_title=Friends
+2026-02-15 16:24:58  INFO      [app]  JOB ba0369bf-c1b4-4437-815e-2edbcfd07169  video saved — 34.28 MB
+2026-02-15 16:24:58  INFO      [app]  JOB ba0369bf-c1b4-4437-815e-2edbcfd07169  STAGE 1/4: audio extraction  SKIPPED (summarisation flag off)
+2026-02-15 16:24:58  INFO      [app]  JOB ba0369bf-c1b4-4437-815e-2edbcfd07169  STAGE 2/4: cast analysis  →  see face_analysis.log
+2026-02-15 16:24:58  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Starting cast analysis
+2026-02-15 16:24:58  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Extracting frames (1 per 10s)
+2026-02-15 16:24:59  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Extracted 157 frames
+2026-02-15 16:25:01  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Total face instances detected: 36
+2026-02-15 16:25:01  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Unique faces after clustering: 9
+2026-02-15 16:25:01  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Top face: 21 appearances (13.4%)
+2026-02-15 16:25:01  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Searching TMDB for 'Friends'
+2026-02-15 16:25:01  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] TMDB top hit: Friends (id=1668, type=tv)
+2026-02-15 16:25:01  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] TMDB returned 20 cast members
+2026-02-15 16:25:01  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Building actor histograms for 20 TMDB cast members
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Matching 9 detected faces against actor histograms
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] No match for face (best=0.47 < threshold=0.55)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Match: face → Aisha Tyler (score=0.66)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] No match for face (best=0.44 < threshold=0.55)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] No match for face (best=0.43 < threshold=0.55)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] No match for face (best=0.50 < threshold=0.55)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] No match for face (best=0.44 < threshold=0.55)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] No match for face (best=0.40 < threshold=0.55)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Match: face → Aisha Tyler (score=0.59)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] No match for face (best=0.43 < threshold=0.55)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Cast analysis complete — 9 unique faces, 20 TMDB cast members
+2026-02-15 16:25:03  INFO      [app]  JOB ba0369bf-c1b4-4437-815e-2edbcfd07169  STAGE 2/4: cast analysis  DONE (9 faces, 20 TMDB cast)
+2026-02-15 16:25:03  INFO      [app]  JOB ba0369bf-c1b4-4437-815e-2edbcfd07169  STAGES 3+4/4: transcription + summarisation  SKIPPED (flag off)
+2026-02-15 16:25:03  INFO      [app]  JOB ba0369bf-c1b4-4437-815e-2edbcfd07169  COMPLETE
+2026-02-15 16:25:03  INFO      [app]  ============================================================
+2026-02-15 16:25:03  INFO      [app]  RESPONSE POST /summarise  status=200  4798ms
+2026-02-15 16:28:11  INFO      [app]  REQUEST  GET /  client=127.0.0.1
+2026-02-15 16:28:11  WARNING   [app]  RESPONSE GET /  status=404  4ms
+2026-02-15 16:31:39  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-15 16:31:39  INFO      [app]  ============================================================
+2026-02-15 16:31:39  INFO      [app]  JOB 0e9f9cdc-de48-4108-8a84-d97f963871d4  START
+2026-02-15 16:31:39  INFO      [app]  JOB 0e9f9cdc-de48-4108-8a84-d97f963871d4  file=test-video-hd.mp4  format=.mp4
+2026-02-15 16:31:39  INFO      [app]  JOB 0e9f9cdc-de48-4108-8a84-d97f963871d4  feature flags: {'summarisation': False}
+2026-02-15 16:31:39  INFO      [app]  JOB 0e9f9cdc-de48-4108-8a84-d97f963871d4  show_title=Friends
+2026-02-15 16:31:39  INFO      [app]  JOB 0e9f9cdc-de48-4108-8a84-d97f963871d4  video saved — 296.49 MB
+2026-02-15 16:31:39  INFO      [app]  JOB 0e9f9cdc-de48-4108-8a84-d97f963871d4  STAGE 1/4: audio extraction  SKIPPED (summarisation flag off)
+2026-02-15 16:31:39  INFO      [app]  JOB 0e9f9cdc-de48-4108-8a84-d97f963871d4  STAGE 2/4: cast analysis  →  see face_analysis.log
+2026-02-15 16:31:39  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Starting cast analysis
+2026-02-15 16:31:39  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Extracting frames (1 per 10s)
+2026-02-15 16:31:51  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Extracted 128 frames
+2026-02-15 16:31:57  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Total face instances detected: 335
+2026-02-15 16:31:57  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Unique faces after clustering: 112
+2026-02-15 16:31:57  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Top face: 51 appearances (39.8%)
+2026-02-15 16:31:57  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Searching TMDB for 'Friends'
+2026-02-15 16:31:57  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] TMDB top hit: Friends (id=1668, type=tv)
+2026-02-15 16:31:57  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] TMDB returned 20 cast members
+2026-02-15 16:31:57  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Building actor histograms for 20 TMDB cast members
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Matching 112 detected faces against actor histograms
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Lisa Kudrow (score=0.82)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.54 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.54 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.29 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.37 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.23 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.42 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.31 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.28 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.37 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Aisha Tyler (score=0.56)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.28 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Aisha Tyler (score=0.57)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.52 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.37 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.43 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.45 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.45 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.43 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.28 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Maggie Wheeler (score=0.56)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.35 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.47 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.53 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.55 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.39 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.48 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.47 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.40 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.50 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Cali Sheldon (score=0.61)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.25 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.16 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.25 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.25 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.18 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.34 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.39 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Aisha Tyler (score=0.58)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.06 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.45 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.24 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.54 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.36 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.46 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.33 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.47 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.45 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.22 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.34 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.22 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.26 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.44 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Jessica Hecht (score=0.68)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.31 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.33 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.30 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.36 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.27 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.11 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.23 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.43 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.37 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.40 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.35 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.20 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.33 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.40 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.28 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.30 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.31 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.39 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.24 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.22 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.25 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.29 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.21 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.45 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.32 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Tom Selleck (score=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.47 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.47 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.32 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.41 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.48 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Lisa Kudrow (score=0.71)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.30 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.50 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.30 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.21 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.54 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.51 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.35 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.55 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.25 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.53 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.22 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.12 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.51 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.21 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Tom Selleck (score=0.79)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → June Gable (score=0.81)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.22 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.00 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Cast analysis complete — 112 unique faces, 20 TMDB cast members
+2026-02-15 16:31:59  INFO      [app]  JOB 0e9f9cdc-de48-4108-8a84-d97f963871d4  STAGE 2/4: cast analysis  DONE (112 faces, 20 TMDB cast)
+2026-02-15 16:31:59  INFO      [app]  JOB 0e9f9cdc-de48-4108-8a84-d97f963871d4  STAGES 3+4/4: transcription + summarisation  SKIPPED (flag off)
+2026-02-15 16:31:59  INFO      [app]  JOB 0e9f9cdc-de48-4108-8a84-d97f963871d4  COMPLETE
+2026-02-15 16:31:59  INFO      [app]  ============================================================
+2026-02-15 16:31:59  INFO      [app]  RESPONSE POST /summarise  status=200  20333ms
+2026-02-15 16:42:45  INFO      [app]  ============================================================
+2026-02-15 16:42:45  INFO      [app]  Video Summariser starting up
+2026-02-15 16:42:45  INFO      [app]  Log directory: /Users/srejith.ramesh/Documents/problem_first_ai_course/AI Repository/video-summariser/code-repository/backend/logs
+2026-02-15 16:42:45  INFO      [app]  ============================================================
+2026-02-15 16:42:45  INFO      [app]  OpenAI client initialised (key ending ...GI8A)
+2026-02-15 16:42:45  INFO      [app]  TMDB client ready (key ending ...2242)
+2026-02-15 16:49:59  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-15 16:50:00  INFO      [app]  ============================================================
+2026-02-15 16:50:00  INFO      [app]  JOB 213c1d80-af61-4eec-a5bd-a4ecae0b2e66  START
+2026-02-15 16:50:00  INFO      [app]  JOB 213c1d80-af61-4eec-a5bd-a4ecae0b2e66  file=test-video-hd.mp4  format=.mp4
+2026-02-15 16:50:00  INFO      [app]  JOB 213c1d80-af61-4eec-a5bd-a4ecae0b2e66  feature flags: {'summarisation': False}
+2026-02-15 16:50:00  INFO      [app]  JOB 213c1d80-af61-4eec-a5bd-a4ecae0b2e66  video saved — 296.49 MB
+2026-02-15 16:50:00  INFO      [app]  JOB 213c1d80-af61-4eec-a5bd-a4ecae0b2e66  STAGE 1/4: audio extraction  SKIPPED (summarisation flag off)
+2026-02-15 16:50:00  INFO      [app]  JOB 213c1d80-af61-4eec-a5bd-a4ecae0b2e66  STAGE 2/4: cast analysis  →  see face_analysis.log
+2026-02-15 16:50:00  INFO      [app.face]  [213c1d80-af61-4eec-a5bd-a4ecae0b2e66] Starting cast analysis
+2026-02-15 16:50:00  INFO      [app.face]  [213c1d80-af61-4eec-a5bd-a4ecae0b2e66] Extracting frames (1 per 10s)
+2026-02-15 16:50:11  INFO      [app.face]  [213c1d80-af61-4eec-a5bd-a4ecae0b2e66] Extracted 128 frames
+2026-02-15 16:51:11  INFO      [app.face]  [213c1d80-af61-4eec-a5bd-a4ecae0b2e66] Total face instances detected: 162
+2026-02-15 16:51:11  INFO      [app.face]  [213c1d80-af61-4eec-a5bd-a4ecae0b2e66] Unique faces after clustering: 32
+2026-02-15 16:51:11  INFO      [app.face]  [213c1d80-af61-4eec-a5bd-a4ecae0b2e66] Top face: 25 appearances (19.5%)
+2026-02-15 16:51:11  INFO      [app.face]  [213c1d80-af61-4eec-a5bd-a4ecae0b2e66] Cast analysis complete — 32 unique faces, 0 TMDB cast members
+2026-02-15 16:51:11  INFO      [app]  JOB 213c1d80-af61-4eec-a5bd-a4ecae0b2e66  STAGE 2/4: cast analysis  DONE (32 faces, 0 TMDB cast)
+2026-02-15 16:51:11  INFO      [app]  JOB 213c1d80-af61-4eec-a5bd-a4ecae0b2e66  STAGES 3+4/4: transcription + summarisation  SKIPPED (flag off)
+2026-02-15 16:51:11  INFO      [app]  JOB 213c1d80-af61-4eec-a5bd-a4ecae0b2e66  COMPLETE
+2026-02-15 16:51:11  INFO      [app]  ============================================================
+2026-02-15 16:51:11  INFO      [app]  RESPONSE POST /summarise  status=200  71519ms
+2026-02-15 16:58:58  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-15 16:58:58  INFO      [app]  ============================================================
+2026-02-15 16:58:58  INFO      [app]  JOB a1a43b05-c335-409d-bf9a-031bed5a49c3  START
+2026-02-15 16:58:58  INFO      [app]  JOB a1a43b05-c335-409d-bf9a-031bed5a49c3  file=test-video-hd.mp4  format=.mp4
+2026-02-15 16:58:58  INFO      [app]  JOB a1a43b05-c335-409d-bf9a-031bed5a49c3  feature flags: {'summarisation': False}
+2026-02-15 16:58:58  INFO      [app]  JOB a1a43b05-c335-409d-bf9a-031bed5a49c3  show_title=Friends
+2026-02-15 16:58:58  INFO      [app]  JOB a1a43b05-c335-409d-bf9a-031bed5a49c3  video saved — 296.49 MB
+2026-02-15 16:58:58  INFO      [app]  JOB a1a43b05-c335-409d-bf9a-031bed5a49c3  STAGE 1/4: audio extraction  SKIPPED (summarisation flag off)
+2026-02-15 16:58:58  INFO      [app]  JOB a1a43b05-c335-409d-bf9a-031bed5a49c3  STAGE 2/4: cast analysis  →  see face_analysis.log
+2026-02-15 16:58:58  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Starting cast analysis
+2026-02-15 16:58:58  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Extracting frames (1 per 10s)
+2026-02-15 16:59:11  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Extracted 128 frames
+2026-02-15 17:00:12  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Total face instances detected: 162
+2026-02-15 17:00:12  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Unique faces after clustering: 32
+2026-02-15 17:00:12  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Top face: 25 appearances (19.5%)
+2026-02-15 17:00:12  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Searching TMDB for 'Friends'
+2026-02-15 17:00:13  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] TMDB top hit: Friends (id=1668, type=tv)
+2026-02-15 17:00:13  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] TMDB returned 20 cast members
+2026-02-15 17:00:13  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Building actor features for 20 TMDB cast members
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Matching 32 detected faces (mode=face-encoding)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Match: face → David Schwimmer (score=0.57)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Match: face → Matthew Perry (score=0.55)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.22)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.43)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Match: face → Jennifer Aniston (score=0.47)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Match: face → Matt LeBlanc (score=0.52)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.37)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.37)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.35)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Match: face → Lisa Kudrow (score=0.57)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.30)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.40)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.27)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.36)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.33)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.40)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.33)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.30)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.30)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.33)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.32)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Match: face → Helen Baxendale (score=0.58)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.28)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.31)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.20)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.30)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.31)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.37)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.30)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.36)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Match: face → Courteney Cox (score=0.48)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.30)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Cast analysis complete — 32 unique faces, 20 TMDB cast members
+2026-02-15 17:00:16  INFO      [app]  JOB a1a43b05-c335-409d-bf9a-031bed5a49c3  STAGE 2/4: cast analysis  DONE (32 faces, 20 TMDB cast)
+2026-02-15 17:00:16  INFO      [app]  JOB a1a43b05-c335-409d-bf9a-031bed5a49c3  STAGES 3+4/4: transcription + summarisation  SKIPPED (flag off)
+2026-02-15 17:00:16  INFO      [app]  JOB a1a43b05-c335-409d-bf9a-031bed5a49c3  COMPLETE
+2026-02-15 17:00:16  INFO      [app]  ============================================================
+2026-02-15 17:00:16  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-15 17:00:16  INFO      [app]  RESPONSE POST /summarise  status=200  78350ms
+2026-02-15 17:00:16  WARNING   [app]  RESPONSE POST /summarise  status=400  7ms
+2026-02-15 17:01:26  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-15 17:01:26  INFO      [app]  ============================================================
+2026-02-15 17:01:26  INFO      [app]  JOB 381bddb2-0d9c-420d-b032-f0a891a8a450  START
+2026-02-15 17:01:26  INFO      [app]  JOB 381bddb2-0d9c-420d-b032-f0a891a8a450  file=test-video.mp4  format=.mp4
+2026-02-15 17:01:26  INFO      [app]  JOB 381bddb2-0d9c-420d-b032-f0a891a8a450  feature flags: {'summarisation': True}
+2026-02-15 17:01:26  INFO      [app]  JOB 381bddb2-0d9c-420d-b032-f0a891a8a450  show_title=Friends
+2026-02-15 17:01:26  INFO      [app]  JOB 381bddb2-0d9c-420d-b032-f0a891a8a450  video saved — 34.28 MB
+2026-02-15 17:01:26  INFO      [app]  JOB 381bddb2-0d9c-420d-b032-f0a891a8a450  STAGE 1/4: audio extraction  →  see audio_extraction.log
+2026-02-15 17:01:26  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Starting audio extraction
+2026-02-15 17:01:26  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Source video : 381bddb2-0d9c-420d-b032-f0a891a8a450.mp4
+2026-02-15 17:01:26  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Target audio : 381bddb2-0d9c-420d-b032-f0a891a8a450.wav
+2026-02-15 17:01:26  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-15 17:01:27  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Extraction complete in 1.1s
+2026-02-15 17:01:27  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Output audio size: 48.06 MB
+2026-02-15 17:01:27  INFO      [app]  JOB 381bddb2-0d9c-420d-b032-f0a891a8a450  STAGE 1/4: audio extraction  DONE
+2026-02-15 17:01:27  INFO      [app]  JOB 381bddb2-0d9c-420d-b032-f0a891a8a450  STAGE 2/4: cast analysis  →  see face_analysis.log
+2026-02-15 17:01:27  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Starting cast analysis
+2026-02-15 17:01:27  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Extracting frames (1 per 10s)
+2026-02-15 17:01:28  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Extracted 157 frames
+2026-02-15 17:01:30  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Total face instances detected: 76
+2026-02-15 17:01:30  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Unique faces after clustering: 21
+2026-02-15 17:01:30  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Top face: 15 appearances (9.6%)
+2026-02-15 17:01:30  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Searching TMDB for 'Friends'
+2026-02-15 17:01:30  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] TMDB top hit: Friends (id=1668, type=tv)
+2026-02-15 17:01:30  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] TMDB returned 20 cast members
+2026-02-15 17:01:30  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Building actor features for 20 TMDB cast members
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Matching 21 detected faces (mode=face-encoding)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.30)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.38)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.36)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.35)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.41)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.42)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.30)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.30)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.42)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.43)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.42)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.26)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Match: face → David Schwimmer (score=0.51)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.38)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.38)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.44)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Match: face → Christina Pickles (score=0.47)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.32)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.34)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.35)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.29)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Cast analysis complete — 21 unique faces, 20 TMDB cast members
+2026-02-15 17:01:33  INFO      [app]  JOB 381bddb2-0d9c-420d-b032-f0a891a8a450  STAGE 2/4: cast analysis  DONE (21 faces, 20 TMDB cast)
+2026-02-15 17:01:33  INFO      [app]  JOB 381bddb2-0d9c-420d-b032-f0a891a8a450  STAGE 3/4: transcription  →  see transcription.log
+2026-02-15 17:01:33  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Starting transcription
+2026-02-15 17:01:33  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Audio file  : 381bddb2-0d9c-420d-b032-f0a891a8a450.wav
+2026-02-15 17:01:33  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Audio size  : 48.06 MB
+2026-02-15 17:01:33  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Whisper model: whisper-1
+2026-02-15 17:01:33  WARNING   [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] File exceeds 25 MB (48.06 MB) — chunked transcription
+2026-02-15 17:01:33  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Audio exceeds 25 MB — splitting into 600s chunks
+2026-02-15 17:01:33  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 1: chunk_000.wav (18.31 MB)
+2026-02-15 17:01:33  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 2: chunk_001.wav (18.31 MB)
+2026-02-15 17:01:33  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 3: chunk_002.wav (11.44 MB)
+2026-02-15 17:01:33  INFO      [app.extraction]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Split produced 3 chunk(s)
+2026-02-15 17:01:33  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Transcribing chunk 1/3 (18.31 MB)
+2026-02-15 17:02:17  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 1 done in 44.4s — 7062 chars
+2026-02-15 17:02:17  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 1 preview: I found a note on my door. Come to Monica's quick. Bring champagne and a three Musketeers bar? Yeah, I'll take that. What's up? Monica and I are engag
+2026-02-15 17:02:17  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Transcribing chunk 2/3 (18.31 MB)
+2026-02-15 17:02:55  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 2 done in 37.6s — 6993 chars
+2026-02-15 17:02:55  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 2 preview: Well, I feel like a snack. Do you want some shortbread? It's Scottish, like you are. Oh, no thanks. I don't like anything from my Scottish heritage. W
+2026-02-15 17:02:55  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Transcribing chunk 3/3 (11.44 MB)
+2026-02-15 17:03:15  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 3 done in 20.0s — 3009 chars
+2026-02-15 17:03:15  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Chunk 3 preview: You got me. I don't know. Joey. I'm sorry. Look, I thought parents were coming. You know, your parents are coming. Chandler's parents are coming. Ross
+2026-02-15 17:03:15  INFO      [app.transcription]  [381bddb2-0d9c-420d-b032-f0a891a8a450] All chunks transcribed — total 17066 chars
+2026-02-15 17:03:15  INFO      [app]  JOB 381bddb2-0d9c-420d-b032-f0a891a8a450  STAGE 3/4: transcription  DONE (17066 chars)
+2026-02-15 17:03:15  INFO      [app]  JOB 381bddb2-0d9c-420d-b032-f0a891a8a450  STAGE 4/4: summarisation  →  see summarisation.log
+2026-02-15 17:03:15  INFO      [app.summarisation]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Starting summarisation
+2026-02-15 17:03:15  INFO      [app.summarisation]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Transcript length : 17066 chars
+2026-02-15 17:03:15  INFO      [app.summarisation]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Model             : gpt-4o-mini
+2026-02-15 17:03:15  INFO      [app.summarisation]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Max tokens        : 500
+2026-02-15 17:03:15  INFO      [app.summarisation]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Max words         : 200
+2026-02-15 17:03:15  INFO      [app.summarisation]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Temperature       : 0.3
+2026-02-15 17:03:15  INFO      [app.summarisation]  [381bddb2-0d9c-420d-b032-f0a891a8a450] System prompt     : You are a content summarisation assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Keep the summary within 200 words.
+2026-02-15 17:03:19  INFO      [app.summarisation]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Summary generated in 4.2s
+2026-02-15 17:03:19  INFO      [app.summarisation]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Summary length: 1025 chars
+2026-02-15 17:03:19  INFO      [app.summarisation]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Token usage — prompt: 4365, completion: 180, total: 4545
+2026-02-15 17:03:19  INFO      [app.summarisation]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Summary:
+In this lively video transcript, the excitement of Monica and Chandler's engagement unfolds as friends celebrate the news. Monica's enthusiasm is palpable, but a brief kiss between Ross and Rachel creates tension, leading to questions about their relationship status. The narrative shifts to wedding planning, revealing humorous complications, such as the absence of a wedding fund and the chaotic search for the perfect wedding dress.
+
+Joey offers to officiate the wedding, showcasing his comedic charm and genuine affection for the couple. As the wedding approaches, Monica and Chandler navigate various challenges, including family dynamics and guest lists, while also preparing their vows. The scene culminates in a heartfelt wedding ceremony, where both Monica and Chandler express their love and commitment to each other. 
+
+The overall narrative captures the joy, chaos, and humor of planning a wedding among friends, emphasizing themes of love, friendship, and the importance of support during significant life events.
+2026-02-15 17:03:19  INFO      [app]  JOB 381bddb2-0d9c-420d-b032-f0a891a8a450  STAGE 4/4: summarisation  DONE (1025 chars)
+2026-02-15 17:03:19  INFO      [app]  JOB 381bddb2-0d9c-420d-b032-f0a891a8a450  COMPLETE
+2026-02-15 17:03:19  INFO      [app]  ============================================================
+2026-02-15 17:03:19  INFO      [app]  RESPONSE POST /summarise  status=200  113653ms
+2026-02-16 05:45:32  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-16 05:45:32  INFO      [app]  ============================================================
+2026-02-16 05:45:32  INFO      [app]  JOB 4093545b-1277-475b-ae11-7a71546ab308  START
+2026-02-16 05:45:32  INFO      [app]  JOB 4093545b-1277-475b-ae11-7a71546ab308  file=tamil-test-hd.mp4  format=.mp4
+2026-02-16 05:45:32  INFO      [app]  JOB 4093545b-1277-475b-ae11-7a71546ab308  feature flags: {'summarisation': True}
+2026-02-16 05:45:32  INFO      [app]  JOB 4093545b-1277-475b-ae11-7a71546ab308  video saved — 31.63 MB
+2026-02-16 05:45:32  INFO      [app]  JOB 4093545b-1277-475b-ae11-7a71546ab308  STAGE 1/4: audio extraction  →  see audio_extraction.log
+2026-02-16 05:45:32  INFO      [app.extraction]  [4093545b-1277-475b-ae11-7a71546ab308] Starting audio extraction
+2026-02-16 05:45:32  INFO      [app.extraction]  [4093545b-1277-475b-ae11-7a71546ab308] Source video : 4093545b-1277-475b-ae11-7a71546ab308.mp4
+2026-02-16 05:45:32  INFO      [app.extraction]  [4093545b-1277-475b-ae11-7a71546ab308] Target audio : 4093545b-1277-475b-ae11-7a71546ab308.wav
+2026-02-16 05:45:32  INFO      [app.extraction]  [4093545b-1277-475b-ae11-7a71546ab308] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-16 05:45:34  INFO      [app.extraction]  [4093545b-1277-475b-ae11-7a71546ab308] Extraction complete in 1.3s
+2026-02-16 05:45:34  INFO      [app.extraction]  [4093545b-1277-475b-ae11-7a71546ab308] Output audio size: 22.54 MB
+2026-02-16 05:45:34  INFO      [app]  JOB 4093545b-1277-475b-ae11-7a71546ab308  STAGE 1/4: audio extraction  DONE
+2026-02-16 05:45:34  INFO      [app]  JOB 4093545b-1277-475b-ae11-7a71546ab308  STAGE 2/4: cast analysis  →  see face_analysis.log
+2026-02-16 05:45:34  INFO      [app.face]  [4093545b-1277-475b-ae11-7a71546ab308] Starting cast analysis
+2026-02-16 05:45:34  INFO      [app.face]  [4093545b-1277-475b-ae11-7a71546ab308] Extracting frames (1 per 10s)
+2026-02-16 05:45:36  INFO      [app.face]  [4093545b-1277-475b-ae11-7a71546ab308] Extracted 74 frames
+2026-02-16 05:45:52  INFO      [app.face]  [4093545b-1277-475b-ae11-7a71546ab308] Total face instances detected: 54
+2026-02-16 05:45:52  INFO      [app.face]  [4093545b-1277-475b-ae11-7a71546ab308] Unique faces after clustering: 9
+2026-02-16 05:45:52  INFO      [app.face]  [4093545b-1277-475b-ae11-7a71546ab308] Top face: 22 appearances (29.7%)
+2026-02-16 05:45:52  INFO      [app.face]  [4093545b-1277-475b-ae11-7a71546ab308] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-16 05:45:52  INFO      [app]  JOB 4093545b-1277-475b-ae11-7a71546ab308  STAGE 2/4: cast analysis  DONE (9 faces, 0 TMDB cast)
+2026-02-16 05:45:52  INFO      [app]  JOB 4093545b-1277-475b-ae11-7a71546ab308  STAGE 3/4: transcription  →  see transcription.log
+2026-02-16 05:45:52  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] Starting transcription
+2026-02-16 05:45:52  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] Audio file  : 4093545b-1277-475b-ae11-7a71546ab308.wav
+2026-02-16 05:45:52  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] Audio size  : 22.54 MB
+2026-02-16 05:45:52  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] Whisper model: whisper-1
+2026-02-16 05:45:52  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] File within 25 MB limit — single API call
+2026-02-16 05:48:25  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] Transcription complete in 153.4s
+2026-02-16 05:48:25  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] Transcript length: 6481 chars
+2026-02-16 05:48:25  INFO      [app.transcription]  [4093545b-1277-475b-ae11-7a71546ab308] Transcript preview: அண்ணா ஒரு காண்டுப்பு I'm pregnant I'm pregnant I'm pregnant I'm pregnant I'm pregnant I'm pregnant உன்னம் பேச எதுவும் இல்லையா? எப்படி? எப்படி என்றா? எப்படி? சந்தேகப்படுறாயே என்ன? என்ன முறைக்கிறாய்? என
+2026-02-16 05:48:25  INFO      [app]  JOB 4093545b-1277-475b-ae11-7a71546ab308  STAGE 3/4: transcription  DONE (6481 chars)
+2026-02-16 05:48:25  INFO      [app]  JOB 4093545b-1277-475b-ae11-7a71546ab308  STAGE 4/4: summarisation  →  see summarisation.log
+2026-02-16 05:48:25  INFO      [app.summarisation]  [4093545b-1277-475b-ae11-7a71546ab308] Starting summarisation
+2026-02-16 05:48:25  INFO      [app.summarisation]  [4093545b-1277-475b-ae11-7a71546ab308] Transcript length : 6481 chars
+2026-02-16 05:48:25  INFO      [app.summarisation]  [4093545b-1277-475b-ae11-7a71546ab308] Model             : gpt-4o-mini
+2026-02-16 05:48:25  INFO      [app.summarisation]  [4093545b-1277-475b-ae11-7a71546ab308] Max tokens        : 500
+2026-02-16 05:48:25  INFO      [app.summarisation]  [4093545b-1277-475b-ae11-7a71546ab308] Max words         : 200
+2026-02-16 05:48:25  INFO      [app.summarisation]  [4093545b-1277-475b-ae11-7a71546ab308] Temperature       : 0.3
+2026-02-16 05:48:25  INFO      [app.summarisation]  [4093545b-1277-475b-ae11-7a71546ab308] System prompt     : You are a content summarisation assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Do not give out the entire storyline, especially important twists and/or climax of the story. Create engaging hook using questions at the end. Keep the summary within 200 words.
+2026-02-16 05:48:29  INFO      [app.summarisation]  [4093545b-1277-475b-ae11-7a71546ab308] Summary generated in 4.3s
+2026-02-16 05:48:29  INFO      [app.summarisation]  [4093545b-1277-475b-ae11-7a71546ab308] Summary length: 1193 chars
+2026-02-16 05:48:29  INFO      [app.summarisation]  [4093545b-1277-475b-ae11-7a71546ab308] Token usage — prompt: 2061, completion: 214, total: 2275
+2026-02-16 05:48:29  INFO      [app.summarisation]  [4093545b-1277-475b-ae11-7a71546ab308] Summary:
+In this emotional dialogue, a couple, Raghav and Keerthi, confront the complexities of their relationship after the birth of their first child. Keerthi reveals her pregnancy, leading to a discussion about their current struggles with communication and intimacy. They reflect on their past love, the challenges of parenting, and the growing distance between them. Raghav expresses his concerns about their relationship, questioning whether they are ready for a second child amidst their existing issues.
+
+The couple reminisces about their college days, highlighting the stark contrast to their present situation. They acknowledge the impact of technology on their connection and the need for open communication to rekindle their bond. As they navigate their feelings of love, sacrifice, and the pressures of family life, they contemplate the importance of prioritizing their relationship. The conversation culminates in a hopeful proposal to dedicate time to each other, suggesting a weekly date night to strengthen their connection. 
+
+Will they be able to bridge the emotional gap and rediscover their love? How will they manage the challenges of parenthood while nurturing their relationship?
+2026-02-16 05:48:29  INFO      [app]  JOB 4093545b-1277-475b-ae11-7a71546ab308  STAGE 4/4: summarisation  DONE (1193 chars)
+2026-02-16 05:48:29  INFO      [app]  JOB 4093545b-1277-475b-ae11-7a71546ab308  COMPLETE
+2026-02-16 05:48:29  INFO      [app]  ============================================================
+2026-02-16 05:48:29  INFO      [app]  RESPONSE POST /summarise  status=200  177287ms
+2026-02-16 05:55:59  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-16 05:56:00  INFO      [app]  ============================================================
+2026-02-16 05:56:00  INFO      [app]  JOB ee8fe428-d6a9-417b-b8a3-c0c0506c97d4  START
+2026-02-16 05:56:00  INFO      [app]  JOB ee8fe428-d6a9-417b-b8a3-c0c0506c97d4  file=tamil-full-singapenney.mp4  format=.mp4
+2026-02-16 05:56:00  INFO      [app]  JOB ee8fe428-d6a9-417b-b8a3-c0c0506c97d4  feature flags: {'summarisation': True}
+2026-02-16 05:56:00  INFO      [app]  JOB ee8fe428-d6a9-417b-b8a3-c0c0506c97d4  show_title=Singappenne
+2026-02-16 05:56:00  INFO      [app]  JOB ee8fe428-d6a9-417b-b8a3-c0c0506c97d4  video saved — 84.56 MB
+2026-02-16 05:56:00  INFO      [app]  JOB ee8fe428-d6a9-417b-b8a3-c0c0506c97d4  STAGE 1/4: audio extraction  →  see audio_extraction.log
+2026-02-16 05:56:00  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Starting audio extraction
+2026-02-16 05:56:00  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Source video : ee8fe428-d6a9-417b-b8a3-c0c0506c97d4.mp4
+2026-02-16 05:56:00  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Target audio : ee8fe428-d6a9-417b-b8a3-c0c0506c97d4.wav
+2026-02-16 05:56:00  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-16 05:56:01  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Extraction complete in 0.9s
+2026-02-16 05:56:01  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Output audio size: 38.02 MB
+2026-02-16 05:56:01  INFO      [app]  JOB ee8fe428-d6a9-417b-b8a3-c0c0506c97d4  STAGE 1/4: audio extraction  DONE
+2026-02-16 05:56:01  INFO      [app]  JOB ee8fe428-d6a9-417b-b8a3-c0c0506c97d4  STAGE 2/4: cast analysis  →  see face_analysis.log
+2026-02-16 05:56:01  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Starting cast analysis
+2026-02-16 05:56:01  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Extracting frames (1 per 10s)
+2026-02-16 05:56:05  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Extracted 125 frames
+2026-02-16 05:56:32  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Total face instances detected: 148
+2026-02-16 05:56:32  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Unique faces after clustering: 19
+2026-02-16 05:56:32  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Top face: 36 appearances (28.8%)
+2026-02-16 05:56:32  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Searching TMDB for 'Singappenne'
+2026-02-16 05:56:33  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] TMDB top hit: Singappenney (id=1256581, type=movie)
+2026-02-16 05:56:33  ERROR     [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] TMDB credits error: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1256581/aggregate_credits?api_key=c22f4dd6ed168b89c6d1ee99ebbe2242
+2026-02-16 05:56:33  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Cast analysis complete — 19 unique faces, 0 TMDB cast members
+2026-02-16 05:56:33  INFO      [app]  JOB ee8fe428-d6a9-417b-b8a3-c0c0506c97d4  STAGE 2/4: cast analysis  DONE (19 faces, 0 TMDB cast)
+2026-02-16 05:56:33  INFO      [app]  JOB ee8fe428-d6a9-417b-b8a3-c0c0506c97d4  STAGE 3/4: transcription  →  see transcription.log
+2026-02-16 05:56:33  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Starting transcription
+2026-02-16 05:56:33  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Audio file  : ee8fe428-d6a9-417b-b8a3-c0c0506c97d4.wav
+2026-02-16 05:56:33  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Audio size  : 38.02 MB
+2026-02-16 05:56:33  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Whisper model: whisper-1
+2026-02-16 05:56:33  WARNING   [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] File exceeds 25 MB (38.02 MB) — chunked transcription
+2026-02-16 05:56:33  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Audio exceeds 25 MB — splitting into 600s chunks
+2026-02-16 05:56:33  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 1: chunk_000.wav (18.31 MB)
+2026-02-16 05:56:33  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 2: chunk_001.wav (18.31 MB)
+2026-02-16 05:56:33  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 3: chunk_002.wav (1.39 MB)
+2026-02-16 05:56:33  INFO      [app.extraction]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Split produced 3 chunk(s)
+2026-02-16 05:56:33  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Transcribing chunk 1/3 (18.31 MB)
+2026-02-16 06:00:21  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 1 done in 227.9s — 5032 chars
+2026-02-16 06:00:21  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 1 preview: இது ஒன்று, அப்பப்பா சிப்பு சரியா வராது, இம்ச. ஏய் அணந்தி, சவுந்தரியாவை நீ ஏதாவது சொன்னாயா? இல்லையே, நான் எதுவும் சொல்லலையே. ஏன் என்ன ஆச்சு? இல்லை, கால
+2026-02-16 06:00:21  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Transcribing chunk 2/3 (18.31 MB)
+2026-02-16 06:04:49  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 2 done in 268.0s — 4352 chars
+2026-02-16 06:04:49  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 2 preview: சொல்லு சோசோ. என்ன விஷயம்? ஏ.. ஏ.. சொல்லு சோந்தரியா. வேலை இருக்குது லே? அண்ணா, நான்.. பிறகு சொல்லுங்கள் அண்ணா. அண்ணதே, இதோடு சையில்ஸ் வந்து நீ எப்படி த
+2026-02-16 06:04:49  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Transcribing chunk 3/3 (1.39 MB)
+2026-02-16 06:05:02  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 3 done in 13.1s — 308 chars
+2026-02-16 06:05:02  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Chunk 3 preview: வீட்டில், உன்னுடைய உன்னையுள எங்கும் வேதனையுளே பகுதி. மது கட்டதும் பன Shoeless. மெகை ஸென, மீண்டும் த்தாதது இப்படி.. நீங்கே ஒலி வந்துவிடு. டோடு இருக்கவு
+2026-02-16 06:05:02  INFO      [app.transcription]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] All chunks transcribed — total 9694 chars
+2026-02-16 06:05:02  INFO      [app]  JOB ee8fe428-d6a9-417b-b8a3-c0c0506c97d4  STAGE 3/4: transcription  DONE (9694 chars)
+2026-02-16 06:05:02  INFO      [app]  JOB ee8fe428-d6a9-417b-b8a3-c0c0506c97d4  STAGE 4/4: summarisation  →  see summarisation.log
+2026-02-16 06:05:02  INFO      [app.summarisation]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Starting summarisation
+2026-02-16 06:05:02  INFO      [app.summarisation]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Transcript length : 9694 chars
+2026-02-16 06:05:02  INFO      [app.summarisation]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Model             : gpt-4o-mini
+2026-02-16 06:05:02  INFO      [app.summarisation]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Max tokens        : 500
+2026-02-16 06:05:02  INFO      [app.summarisation]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Max words         : 70
+2026-02-16 06:05:02  INFO      [app.summarisation]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Temperature       : 0.3
+2026-02-16 06:05:02  INFO      [app.summarisation]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] System prompt     : You are a content summarisation assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Do not give out the entire storyline, especially important twists and/or climax of the story. Create engaging hook using questions at the end. Keep the summary within 70 words.
+2026-02-16 06:05:05  INFO      [app.summarisation]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Summary generated in 3.1s
+2026-02-16 06:05:05  INFO      [app.summarisation]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Summary length: 548 chars
+2026-02-16 06:05:05  INFO      [app.summarisation]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Token usage — prompt: 3656, completion: 88, total: 3744
+2026-02-16 06:05:05  INFO      [app.summarisation]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Summary:
+The transcript revolves around a tense conversation among friends, highlighting misunderstandings and unspoken issues. Characters express frustration over communication gaps, particularly regarding a friend's emotional struggles and the importance of honesty. The dialogue reveals underlying tensions and the need for support, with one character urging another to open up about their feelings. As they navigate their relationships, questions of loyalty and trust emerge. What secrets are being kept? Will they find a way to communicate effectively?
+2026-02-16 06:05:05  INFO      [app]  JOB ee8fe428-d6a9-417b-b8a3-c0c0506c97d4  STAGE 4/4: summarisation  DONE (548 chars)
+2026-02-16 06:05:05  INFO      [app]  JOB ee8fe428-d6a9-417b-b8a3-c0c0506c97d4  COMPLETE
+2026-02-16 06:05:05  INFO      [app]  ============================================================
+2026-02-16 06:05:05  INFO      [app]  RESPONSE POST /summarise  status=200  545783ms
+2026-02-16 06:07:07  INFO      [app]  REQUEST  POST /summarise  client=127.0.0.1
+2026-02-16 06:07:07  INFO      [app]  ============================================================
+2026-02-16 06:07:07  INFO      [app]  JOB 629ca295-35f6-483a-8917-6659eac987cd  START
+2026-02-16 06:07:07  INFO      [app]  JOB 629ca295-35f6-483a-8917-6659eac987cd  file=tamil-test-hd.mp4  format=.mp4
+2026-02-16 06:07:07  INFO      [app]  JOB 629ca295-35f6-483a-8917-6659eac987cd  feature flags: {'summarisation': True}
+2026-02-16 06:07:07  INFO      [app]  JOB 629ca295-35f6-483a-8917-6659eac987cd  show_title=Singappenne
+2026-02-16 06:07:07  INFO      [app]  JOB 629ca295-35f6-483a-8917-6659eac987cd  video saved — 31.63 MB
+2026-02-16 06:07:07  INFO      [app]  JOB 629ca295-35f6-483a-8917-6659eac987cd  STAGE 1/4: audio extraction  →  see audio_extraction.log
+2026-02-16 06:07:07  INFO      [app.extraction]  [629ca295-35f6-483a-8917-6659eac987cd] Starting audio extraction
+2026-02-16 06:07:07  INFO      [app.extraction]  [629ca295-35f6-483a-8917-6659eac987cd] Source video : 629ca295-35f6-483a-8917-6659eac987cd.mp4
+2026-02-16 06:07:07  INFO      [app.extraction]  [629ca295-35f6-483a-8917-6659eac987cd] Target audio : 629ca295-35f6-483a-8917-6659eac987cd.wav
+2026-02-16 06:07:07  INFO      [app.extraction]  [629ca295-35f6-483a-8917-6659eac987cd] FFmpeg params : 16 kHz, mono, pcm_s16le
+2026-02-16 06:07:07  INFO      [app.extraction]  [629ca295-35f6-483a-8917-6659eac987cd] Extraction complete in 0.6s
+2026-02-16 06:07:07  INFO      [app.extraction]  [629ca295-35f6-483a-8917-6659eac987cd] Output audio size: 22.54 MB
+2026-02-16 06:07:07  INFO      [app]  JOB 629ca295-35f6-483a-8917-6659eac987cd  STAGE 1/4: audio extraction  DONE
+2026-02-16 06:07:07  INFO      [app]  JOB 629ca295-35f6-483a-8917-6659eac987cd  STAGE 2/4: cast analysis  →  see face_analysis.log
+2026-02-16 06:07:07  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Starting cast analysis
+2026-02-16 06:07:07  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Extracting frames (1 per 10s)
+2026-02-16 06:07:10  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Extracted 74 frames
+2026-02-16 06:07:25  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Total face instances detected: 54
+2026-02-16 06:07:25  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Unique faces after clustering: 9
+2026-02-16 06:07:25  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Top face: 22 appearances (29.7%)
+2026-02-16 06:07:25  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Searching TMDB for 'Singappenne'
+2026-02-16 06:07:25  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] TMDB top hit: Singappenney (id=1256581, type=movie)
+2026-02-16 06:07:26  ERROR     [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] TMDB credits error: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1256581/aggregate_credits?api_key=c22f4dd6ed168b89c6d1ee99ebbe2242
+2026-02-16 06:07:26  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-16 06:07:26  INFO      [app]  JOB 629ca295-35f6-483a-8917-6659eac987cd  STAGE 2/4: cast analysis  DONE (9 faces, 0 TMDB cast)
+2026-02-16 06:07:26  INFO      [app]  JOB 629ca295-35f6-483a-8917-6659eac987cd  STAGE 3/4: transcription  →  see transcription.log
+2026-02-16 06:07:26  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] Starting transcription
+2026-02-16 06:07:26  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] Audio file  : 629ca295-35f6-483a-8917-6659eac987cd.wav
+2026-02-16 06:07:26  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] Audio size  : 22.54 MB
+2026-02-16 06:07:26  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] Whisper model: whisper-1
+2026-02-16 06:07:26  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] File within 25 MB limit — single API call
+2026-02-16 06:12:34  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] Transcription complete in 308.4s
+2026-02-16 06:12:34  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] Transcript length: 6850 chars
+2026-02-16 06:12:34  INFO      [app.transcription]  [629ca295-35f6-483a-8917-6659eac987cd] Transcript preview: அண்ணா ஒரு காண்டுப்பு I'm pregnant I'm pregnant pregnancy kit புரியவில்ல pregnancy kit அதற்குள்ளே இந்தாங்க உனக்கு பேச எதுவும் இல்லையா? எப்டி? எப்டி என்றா? எப்டி? சந்தேகப்படுகிறாயா என்ன? என்ன முறைக்கிறா
+2026-02-16 06:12:34  INFO      [app]  JOB 629ca295-35f6-483a-8917-6659eac987cd  STAGE 3/4: transcription  DONE (6850 chars)
+2026-02-16 06:12:34  INFO      [app]  JOB 629ca295-35f6-483a-8917-6659eac987cd  STAGE 4/4: summarisation  →  see summarisation.log
+2026-02-16 06:12:34  INFO      [app.summarisation]  [629ca295-35f6-483a-8917-6659eac987cd] Starting summarisation
+2026-02-16 06:12:34  INFO      [app.summarisation]  [629ca295-35f6-483a-8917-6659eac987cd] Transcript length : 6850 chars
+2026-02-16 06:12:34  INFO      [app.summarisation]  [629ca295-35f6-483a-8917-6659eac987cd] Model             : gpt-4o-mini
+2026-02-16 06:12:34  INFO      [app.summarisation]  [629ca295-35f6-483a-8917-6659eac987cd] Max tokens        : 500
+2026-02-16 06:12:34  INFO      [app.summarisation]  [629ca295-35f6-483a-8917-6659eac987cd] Max words         : 70
+2026-02-16 06:12:34  INFO      [app.summarisation]  [629ca295-35f6-483a-8917-6659eac987cd] Temperature       : 0.3
+2026-02-16 06:12:34  INFO      [app.summarisation]  [629ca295-35f6-483a-8917-6659eac987cd] System prompt     : You are a content summarisation assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Do not give out the entire storyline, especially important twists and/or climax of the story. Create engaging hook using questions at the end. Keep the summary within 70 words.
+2026-02-16 06:12:37  INFO      [app.summarisation]  [629ca295-35f6-483a-8917-6659eac987cd] Summary generated in 2.9s
+2026-02-16 06:12:37  INFO      [app.summarisation]  [629ca295-35f6-483a-8917-6659eac987cd] Summary length: 450 chars
+2026-02-16 06:12:37  INFO      [app.summarisation]  [629ca295-35f6-483a-8917-6659eac987cd] Token usage — prompt: 2345, completion: 80, total: 2425
+2026-02-16 06:12:37  INFO      [app.summarisation]  [629ca295-35f6-483a-8917-6659eac987cd] Summary:
+In this emotional conversation, a couple grapples with the unexpected news of a second pregnancy while reflecting on their relationship challenges. They discuss their first child, Siddharth, and the pressures of parenting, communication, and intimacy. As they navigate their feelings, they question their readiness for another child and the state of their marriage. Will they find a way to reconnect and strengthen their bond amidst these challenges?
+2026-02-16 06:12:37  INFO      [app]  JOB 629ca295-35f6-483a-8917-6659eac987cd  STAGE 4/4: summarisation  DONE (450 chars)
+2026-02-16 06:12:37  INFO      [app]  JOB 629ca295-35f6-483a-8917-6659eac987cd  COMPLETE
+2026-02-16 06:12:37  INFO      [app]  ============================================================
+2026-02-16 06:12:37  INFO      [app]  RESPONSE POST /summarise  status=200  330238ms

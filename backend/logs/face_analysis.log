@@ -1,0 +1,302 @@
+2026-02-15 14:38:47  INFO      [app.face]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Starting cast analysis
+2026-02-15 14:38:47  INFO      [app.face]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Extracting frames (1 per 10s)
+2026-02-15 14:38:48  INFO      [app.face]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Extracted 157 frames
+2026-02-15 14:38:50  INFO      [app.face]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Total face instances detected: 36
+2026-02-15 14:38:50  INFO      [app.face]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Unique faces after clustering: 9
+2026-02-15 14:38:50  INFO      [app.face]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Top face: 21 appearances (13.4%)
+2026-02-15 14:38:50  INFO      [app.face]  [c6c6ed6d-88f1-45e0-86e0-04945980ecb5] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-15 15:49:02  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Starting cast analysis
+2026-02-15 15:49:02  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Extracting frames (1 per 10s)
+2026-02-15 15:49:03  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Extracted 157 frames
+2026-02-15 15:49:05  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Total face instances detected: 36
+2026-02-15 15:49:05  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Unique faces after clustering: 9
+2026-02-15 15:49:05  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Top face: 21 appearances (13.4%)
+2026-02-15 15:49:05  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Searching TMDB for 'Friends'
+2026-02-15 15:49:05  ERROR     [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] TMDB search error: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/search/multi?api_key=c22f4dd6ed168b89c6d1ee99ebbe2242&query=Friends (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+2026-02-15 15:49:05  INFO      [app.face]  [c1970310-32dd-4e89-982e-f377a37adcb9] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-15 16:01:24  INFO      [app.face]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Starting cast analysis
+2026-02-15 16:01:24  INFO      [app.face]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Extracting frames (1 per 10s)
+2026-02-15 16:01:25  INFO      [app.face]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Extracted 157 frames
+2026-02-15 16:01:27  INFO      [app.face]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Total face instances detected: 36
+2026-02-15 16:01:27  INFO      [app.face]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Unique faces after clustering: 9
+2026-02-15 16:01:27  INFO      [app.face]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Top face: 21 appearances (13.4%)
+2026-02-15 16:01:27  INFO      [app.face]  [25557f19-6294-4613-9923-8ffd7a2d94d8] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-15 16:20:27  INFO      [app.face]  [ff770672-d2c3-4f4c-bd91-3068c418fcb9] Starting cast analysis
+2026-02-15 16:20:27  INFO      [app.face]  [ff770672-d2c3-4f4c-bd91-3068c418fcb9] Extracting frames (1 per 10s)
+2026-02-15 16:20:28  INFO      [app.face]  [ff770672-d2c3-4f4c-bd91-3068c418fcb9] Extracted 157 frames
+2026-02-15 16:20:30  INFO      [app.face]  [ff770672-d2c3-4f4c-bd91-3068c418fcb9] Total face instances detected: 36
+2026-02-15 16:20:30  INFO      [app.face]  [ff770672-d2c3-4f4c-bd91-3068c418fcb9] Unique faces after clustering: 9
+2026-02-15 16:20:30  INFO      [app.face]  [ff770672-d2c3-4f4c-bd91-3068c418fcb9] Top face: 21 appearances (13.4%)
+2026-02-15 16:20:30  INFO      [app.face]  [ff770672-d2c3-4f4c-bd91-3068c418fcb9] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-15 16:20:48  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Starting cast analysis
+2026-02-15 16:20:48  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Extracting frames (1 per 10s)
+2026-02-15 16:20:49  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Extracted 157 frames
+2026-02-15 16:20:51  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Total face instances detected: 36
+2026-02-15 16:20:51  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Unique faces after clustering: 9
+2026-02-15 16:20:51  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Top face: 21 appearances (13.4%)
+2026-02-15 16:20:51  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Searching TMDB for 'Friends'
+2026-02-15 16:20:51  ERROR     [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] TMDB search error: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/search/multi?api_key=c22f4dd6ed168b89c6d1ee99ebbe2242&query=Friends (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+2026-02-15 16:20:51  INFO      [app.face]  [2bdc9c3a-b942-4361-a2a1-4bf744610a34] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-15 16:21:07  INFO      [app.face]  [91e37767-12bc-427c-9be0-974644688103] Starting cast analysis
+2026-02-15 16:21:07  INFO      [app.face]  [91e37767-12bc-427c-9be0-974644688103] Extracting frames (1 per 10s)
+2026-02-15 16:21:08  INFO      [app.face]  [91e37767-12bc-427c-9be0-974644688103] Extracted 157 frames
+2026-02-15 16:21:10  INFO      [app.face]  [91e37767-12bc-427c-9be0-974644688103] Total face instances detected: 36
+2026-02-15 16:21:10  INFO      [app.face]  [91e37767-12bc-427c-9be0-974644688103] Unique faces after clustering: 9
+2026-02-15 16:21:10  INFO      [app.face]  [91e37767-12bc-427c-9be0-974644688103] Top face: 21 appearances (13.4%)
+2026-02-15 16:21:10  INFO      [app.face]  [91e37767-12bc-427c-9be0-974644688103] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-15 16:24:58  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Starting cast analysis
+2026-02-15 16:24:58  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Extracting frames (1 per 10s)
+2026-02-15 16:24:59  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Extracted 157 frames
+2026-02-15 16:25:01  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Total face instances detected: 36
+2026-02-15 16:25:01  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Unique faces after clustering: 9
+2026-02-15 16:25:01  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Top face: 21 appearances (13.4%)
+2026-02-15 16:25:01  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Searching TMDB for 'Friends'
+2026-02-15 16:25:01  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] TMDB top hit: Friends (id=1668, type=tv)
+2026-02-15 16:25:01  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] TMDB returned 20 cast members
+2026-02-15 16:25:01  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Building actor histograms for 20 TMDB cast members
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Matching 9 detected faces against actor histograms
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] No match for face (best=0.47 < threshold=0.55)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Match: face → Aisha Tyler (score=0.66)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] No match for face (best=0.44 < threshold=0.55)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] No match for face (best=0.43 < threshold=0.55)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] No match for face (best=0.50 < threshold=0.55)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] No match for face (best=0.44 < threshold=0.55)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] No match for face (best=0.40 < threshold=0.55)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Match: face → Aisha Tyler (score=0.59)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] No match for face (best=0.43 < threshold=0.55)
+2026-02-15 16:25:03  INFO      [app.face]  [ba0369bf-c1b4-4437-815e-2edbcfd07169] Cast analysis complete — 9 unique faces, 20 TMDB cast members
+2026-02-15 16:31:39  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Starting cast analysis
+2026-02-15 16:31:39  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Extracting frames (1 per 10s)
+2026-02-15 16:31:51  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Extracted 128 frames
+2026-02-15 16:31:57  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Total face instances detected: 335
+2026-02-15 16:31:57  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Unique faces after clustering: 112
+2026-02-15 16:31:57  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Top face: 51 appearances (39.8%)
+2026-02-15 16:31:57  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Searching TMDB for 'Friends'
+2026-02-15 16:31:57  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] TMDB top hit: Friends (id=1668, type=tv)
+2026-02-15 16:31:57  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] TMDB returned 20 cast members
+2026-02-15 16:31:57  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Building actor histograms for 20 TMDB cast members
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Matching 112 detected faces against actor histograms
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Lisa Kudrow (score=0.82)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.54 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.54 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.29 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.37 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.23 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.42 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.31 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.28 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.37 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Aisha Tyler (score=0.56)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.28 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Aisha Tyler (score=0.57)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.52 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.37 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.43 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.45 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.45 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.43 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.28 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Maggie Wheeler (score=0.56)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.35 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.47 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.53 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.55 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.39 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.48 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.47 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.40 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.50 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Cali Sheldon (score=0.61)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.25 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.16 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.25 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.25 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.18 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.34 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.39 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Aisha Tyler (score=0.58)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.06 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.45 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.24 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.54 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.36 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.46 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.33 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.47 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.45 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.22 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.34 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.22 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.26 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.44 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Jessica Hecht (score=0.68)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.31 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.33 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.30 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.36 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.27 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.11 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.23 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.43 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.37 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.40 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.35 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.20 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.33 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.40 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.28 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.30 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.31 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.39 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.24 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.22 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.25 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.29 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.21 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.45 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.32 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Tom Selleck (score=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.47 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.47 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.32 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.41 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.48 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Lisa Kudrow (score=0.71)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.30 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.38 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.50 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.30 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.21 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.54 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.51 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.35 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.55 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.25 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.53 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.22 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.12 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.51 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.21 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → Tom Selleck (score=0.79)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Match: face → June Gable (score=0.81)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.22 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] No match for face (best=0.00 < threshold=0.55)
+2026-02-15 16:31:59  INFO      [app.face]  [0e9f9cdc-de48-4108-8a84-d97f963871d4] Cast analysis complete — 112 unique faces, 20 TMDB cast members
+2026-02-15 16:50:00  INFO      [app.face]  [213c1d80-af61-4eec-a5bd-a4ecae0b2e66] Starting cast analysis
+2026-02-15 16:50:00  INFO      [app.face]  [213c1d80-af61-4eec-a5bd-a4ecae0b2e66] Extracting frames (1 per 10s)
+2026-02-15 16:50:11  INFO      [app.face]  [213c1d80-af61-4eec-a5bd-a4ecae0b2e66] Extracted 128 frames
+2026-02-15 16:51:11  INFO      [app.face]  [213c1d80-af61-4eec-a5bd-a4ecae0b2e66] Total face instances detected: 162
+2026-02-15 16:51:11  INFO      [app.face]  [213c1d80-af61-4eec-a5bd-a4ecae0b2e66] Unique faces after clustering: 32
+2026-02-15 16:51:11  INFO      [app.face]  [213c1d80-af61-4eec-a5bd-a4ecae0b2e66] Top face: 25 appearances (19.5%)
+2026-02-15 16:51:11  INFO      [app.face]  [213c1d80-af61-4eec-a5bd-a4ecae0b2e66] Cast analysis complete — 32 unique faces, 0 TMDB cast members
+2026-02-15 16:58:58  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Starting cast analysis
+2026-02-15 16:58:58  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Extracting frames (1 per 10s)
+2026-02-15 16:59:11  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Extracted 128 frames
+2026-02-15 17:00:12  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Total face instances detected: 162
+2026-02-15 17:00:12  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Unique faces after clustering: 32
+2026-02-15 17:00:12  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Top face: 25 appearances (19.5%)
+2026-02-15 17:00:12  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Searching TMDB for 'Friends'
+2026-02-15 17:00:13  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] TMDB top hit: Friends (id=1668, type=tv)
+2026-02-15 17:00:13  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] TMDB returned 20 cast members
+2026-02-15 17:00:13  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Building actor features for 20 TMDB cast members
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Matching 32 detected faces (mode=face-encoding)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Match: face → David Schwimmer (score=0.57)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Match: face → Matthew Perry (score=0.55)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.22)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.43)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Match: face → Jennifer Aniston (score=0.47)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Match: face → Matt LeBlanc (score=0.52)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.37)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.37)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.35)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Match: face → Lisa Kudrow (score=0.57)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.30)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.40)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.27)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.36)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.33)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.40)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.33)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.30)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.30)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.33)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.32)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Match: face → Helen Baxendale (score=0.58)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.28)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.31)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.20)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.30)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.31)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.37)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.30)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.36)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Match: face → Courteney Cox (score=0.48)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] No match for face (best=0.30)
+2026-02-15 17:00:16  INFO      [app.face]  [a1a43b05-c335-409d-bf9a-031bed5a49c3] Cast analysis complete — 32 unique faces, 20 TMDB cast members
+2026-02-15 17:01:27  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Starting cast analysis
+2026-02-15 17:01:27  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Extracting frames (1 per 10s)
+2026-02-15 17:01:28  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Extracted 157 frames
+2026-02-15 17:01:30  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Total face instances detected: 76
+2026-02-15 17:01:30  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Unique faces after clustering: 21
+2026-02-15 17:01:30  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Top face: 15 appearances (9.6%)
+2026-02-15 17:01:30  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Searching TMDB for 'Friends'
+2026-02-15 17:01:30  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] TMDB top hit: Friends (id=1668, type=tv)
+2026-02-15 17:01:30  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] TMDB returned 20 cast members
+2026-02-15 17:01:30  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Building actor features for 20 TMDB cast members
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Matching 21 detected faces (mode=face-encoding)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.30)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.38)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.36)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.35)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.41)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.42)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.30)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.30)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.42)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.43)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.42)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.26)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Match: face → David Schwimmer (score=0.51)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.38)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.38)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.44)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Match: face → Christina Pickles (score=0.47)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.32)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.34)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.35)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] No match for face (best=0.29)
+2026-02-15 17:01:33  INFO      [app.face]  [381bddb2-0d9c-420d-b032-f0a891a8a450] Cast analysis complete — 21 unique faces, 20 TMDB cast members
+2026-02-16 05:45:34  INFO      [app.face]  [4093545b-1277-475b-ae11-7a71546ab308] Starting cast analysis
+2026-02-16 05:45:34  INFO      [app.face]  [4093545b-1277-475b-ae11-7a71546ab308] Extracting frames (1 per 10s)
+2026-02-16 05:45:36  INFO      [app.face]  [4093545b-1277-475b-ae11-7a71546ab308] Extracted 74 frames
+2026-02-16 05:45:52  INFO      [app.face]  [4093545b-1277-475b-ae11-7a71546ab308] Total face instances detected: 54
+2026-02-16 05:45:52  INFO      [app.face]  [4093545b-1277-475b-ae11-7a71546ab308] Unique faces after clustering: 9
+2026-02-16 05:45:52  INFO      [app.face]  [4093545b-1277-475b-ae11-7a71546ab308] Top face: 22 appearances (29.7%)
+2026-02-16 05:45:52  INFO      [app.face]  [4093545b-1277-475b-ae11-7a71546ab308] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-02-16 05:56:01  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Starting cast analysis
+2026-02-16 05:56:01  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Extracting frames (1 per 10s)
+2026-02-16 05:56:05  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Extracted 125 frames
+2026-02-16 05:56:32  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Total face instances detected: 148
+2026-02-16 05:56:32  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Unique faces after clustering: 19
+2026-02-16 05:56:32  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Top face: 36 appearances (28.8%)
+2026-02-16 05:56:32  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Searching TMDB for 'Singappenne'
+2026-02-16 05:56:33  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] TMDB top hit: Singappenney (id=1256581, type=movie)
+2026-02-16 05:56:33  ERROR     [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] TMDB credits error: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1256581/aggregate_credits?api_key=c22f4dd6ed168b89c6d1ee99ebbe2242
+2026-02-16 05:56:33  INFO      [app.face]  [ee8fe428-d6a9-417b-b8a3-c0c0506c97d4] Cast analysis complete — 19 unique faces, 0 TMDB cast members
+2026-02-16 06:07:07  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Starting cast analysis
+2026-02-16 06:07:07  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Extracting frames (1 per 10s)
+2026-02-16 06:07:10  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Extracted 74 frames
+2026-02-16 06:07:25  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Total face instances detected: 54
+2026-02-16 06:07:25  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Unique faces after clustering: 9
+2026-02-16 06:07:25  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Top face: 22 appearances (29.7%)
+2026-02-16 06:07:25  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Searching TMDB for 'Singappenne'
+2026-02-16 06:07:25  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] TMDB top hit: Singappenney (id=1256581, type=movie)
+2026-02-16 06:07:26  ERROR     [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] TMDB credits error: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1256581/aggregate_credits?api_key=c22f4dd6ed168b89c6d1ee99ebbe2242
+2026-02-16 06:07:26  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Cast analysis complete — 9 unique faces, 0 TMDB cast members
