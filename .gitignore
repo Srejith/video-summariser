@@ -1,6 +1,7 @@
 # Ignore backend env file (secrets/config)
 backend/.env
 backend/logs/*
+.DS_Store
 
 # Ignore frontend dependencies
 frontend/node_modules/
