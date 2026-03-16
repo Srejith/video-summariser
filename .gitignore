@@ -1,5 +1,6 @@
 # Ignore backend env file (secrets/config)
 backend/.env
+backend/logs/*
 
 # Ignore frontend dependencies
 frontend/node_modules/

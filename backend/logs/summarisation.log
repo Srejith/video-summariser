@@ -84,3 +84,245 @@ The transcript revolves around a tense conversation among friends, highlighting 
 2026-02-16 06:12:37  INFO      [app.summarisation]  [629ca295-35f6-483a-8917-6659eac987cd] Token usage — prompt: 2345, completion: 80, total: 2425
 2026-02-16 06:12:37  INFO      [app.summarisation]  [629ca295-35f6-483a-8917-6659eac987cd] Summary:
 In this emotional conversation, a couple grapples with the unexpected news of a second pregnancy while reflecting on their relationship challenges. They discuss their first child, Siddharth, and the pressures of parenting, communication, and intimacy. As they navigate their feelings, they question their readiness for another child and the state of their marriage. Will they find a way to reconnect and strengthen their bond amidst these challenges?
+2026-03-08 19:24:25  INFO      [app.summarisation]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Starting summarisation
+2026-03-08 19:24:25  INFO      [app.summarisation]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Transcript length : 8156 chars
+2026-03-08 19:24:25  INFO      [app.summarisation]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Model             : gpt-4o-mini
+2026-03-08 19:24:25  INFO      [app.summarisation]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Max tokens        : 500
+2026-03-08 19:24:25  INFO      [app.summarisation]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Max words         : 200
+2026-03-08 19:24:25  INFO      [app.summarisation]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Temperature       : 0.3
+2026-03-08 19:24:25  INFO      [app.summarisation]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] System prompt     : You are a content summarisation assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Keep the summary within 200 words.
+2026-03-08 19:24:30  INFO      [app.summarisation]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Summary generated in 4.9s
+2026-03-08 19:24:30  INFO      [app.summarisation]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Summary length: 1085 chars
+2026-03-08 19:24:30  INFO      [app.summarisation]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Token usage — prompt: 2987, completion: 176, total: 3163
+2026-03-08 19:24:30  INFO      [app.summarisation]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Summary:
+The video transcript appears to be a dramatic dialogue involving themes of love, sacrifice, and interpersonal conflict. The characters discuss their feelings and relationships, particularly focusing on a love triangle involving a character named Krish. One character expresses frustration over the situation, feeling trapped by love and the expectations surrounding marriage. There are references to divine intervention and fate, with characters questioning why they are in their current predicament.
+
+The dialogue reveals deep emotional struggles, with one character feeling abandoned by God and another grappling with the consequences of their choices. The conversation oscillates between despair and hope, as they contemplate the possibility of a future together despite the obstacles. The tension escalates as they confront each other about their feelings and intentions, leading to a plea for understanding and resolution.
+
+Overall, the narrative captures the complexities of love, the weight of societal expectations, and the desire for personal freedom amidst emotional turmoil.
+2026-03-08 19:27:44  INFO      [app.summarisation]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Starting summarisation
+2026-03-08 19:27:44  INFO      [app.summarisation]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Transcript length : 11864 chars
+2026-03-08 19:27:44  INFO      [app.summarisation]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Model             : gpt-4o-mini
+2026-03-08 19:27:44  INFO      [app.summarisation]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Max tokens        : 500
+2026-03-08 19:27:44  INFO      [app.summarisation]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Max words         : 200
+2026-03-08 19:27:44  INFO      [app.summarisation]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Temperature       : 0.3
+2026-03-08 19:27:44  INFO      [app.summarisation]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] System prompt     : You are a content summarisation assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Keep the summary within 200 words.
+2026-03-08 19:27:47  INFO      [app.summarisation]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Summary generated in 3.6s
+2026-03-08 19:27:47  INFO      [app.summarisation]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Summary length: 1185 chars
+2026-03-08 19:27:47  INFO      [app.summarisation]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Token usage — prompt: 2966, completion: 214, total: 3180
+2026-03-08 19:27:47  INFO      [app.summarisation]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Summary:
+The video transcript features a lively game of trivia between two teams, the guys and the ladies, focusing on characters and events from the TV show "Friends." The guys answer questions about Monica, Rachel, and Joey, showcasing their knowledge of the characters' quirks and backstories. The ladies then take their turn, struggling at times but ultimately answering questions about Joey's favorite food and Chandler's job, leading to humorous exchanges.
+
+The narrative shifts to the characters' daily lives, highlighting their interactions in a new apartment filled with comedic mishaps, such as Joey's rush to a set and Phoebe's pregnancy cravings. The humor continues as the characters discuss their relationships and coping mechanisms after breakups, with Joey and Chandler contemplating going to a strip club as a form of distraction.
+
+Throughout the transcript, the characters' personalities shine through, with playful banter and absurd situations, culminating in a lighthearted atmosphere that captures the essence of friendship and camaraderie. The dialogue reflects their struggles, humor, and the dynamics of their relationships, making it a quintessential "Friends" episode.
+2026-03-08 19:45:35  INFO      [app.summarisation]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Starting summarisation
+2026-03-08 19:45:35  INFO      [app.summarisation]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Transcript length : 5287 chars
+2026-03-08 19:45:35  INFO      [app.summarisation]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Model             : gpt-4o-mini
+2026-03-08 19:45:35  INFO      [app.summarisation]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Max tokens        : 5000
+2026-03-08 19:45:35  INFO      [app.summarisation]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Max words         : 200
+2026-03-08 19:45:35  INFO      [app.summarisation]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Temperature       : 0.3
+2026-03-08 19:45:35  INFO      [app.summarisation]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] System prompt     : Role: You are a content summarisation assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. 
+Instructions 
+- Do not reveal the final climax of the show. 
+- Make the summary interesting and catchy. It should make the audience who read the preview curious and interested to watch the tv show. 
+
+Output format
+- Provide the summary of the video 
+- Provide 5 keywords about the plot summary to use in YouTube for improving digital engagement. Keep the summary within 200 words.
+2026-03-08 19:45:39  INFO      [app.summarisation]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Summary generated in 4.4s
+2026-03-08 19:45:39  INFO      [app.summarisation]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Summary length: 1106 chars
+2026-03-08 19:45:39  INFO      [app.summarisation]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Token usage — prompt: 2599, completion: 207, total: 2806
+2026-03-08 19:45:39  INFO      [app.summarisation]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Summary:
+In this lively episode, the characters engage in a whirlwind of humorous banter and chaotic interactions, revealing their quirky personalities. The excitement kicks off with the launch of the "Annapurna Tiffin Service," sparking a flurry of reactions and playful jabs among friends. As they navigate their daily lives filled with work and personal challenges, the dialogue is peppered with witty remarks and light-hearted teasing, showcasing their camaraderie.
+
+The characters grapple with the ups and downs of their routines, from office antics to personal dilemmas, all while maintaining a comedic tone. The interactions highlight their friendships, misunderstandings, and the occasional drama that unfolds, keeping viewers on their toes. With a mix of humor and relatable situations, this episode promises to deliver laughter and a glimpse into the vibrant lives of its characters.
+
+Join the fun and see how these friends tackle their challenges with a smile, but be prepared for unexpected twists that will leave you wanting more!
+
+**Keywords:** Comedy, Friendship, Tiffin Service, Office Antics, Humor
+2026-03-08 20:52:04  INFO      [app.summarisation]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Starting summarisation
+2026-03-08 20:52:04  INFO      [app.summarisation]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Transcript length : 7899 chars
+2026-03-08 20:52:04  INFO      [app.summarisation]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Model             : gpt-4o-mini
+2026-03-08 20:52:04  INFO      [app.summarisation]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Max tokens        : 500
+2026-03-08 20:52:04  INFO      [app.summarisation]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Max words         : 100
+2026-03-08 20:52:04  INFO      [app.summarisation]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Temperature       : 0.3
+2026-03-08 20:52:04  INFO      [app.summarisation]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] System prompt     : # Role and Objective You are a content summarization assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Reason internally as needed, but do not reveal internal reasoning.  # Instructions - Use very simple English that even kids can understand. - Do not reveal the final climax of the show. - Make the summary interesting and catchy. - Write the summary so it makes readers curious and interested to watch the TV show. - Set reasoning effort to minimal unless the transcript is unusually complex. - Before finalizing, do a brief check that the summary is spoiler-safe, uses very simple English, and follows the required output format exactly. - Output plain text only.  # Output Format Return exactly two sections in this order: Summary: <1 concise paragraph in very simple English, written as a spoiler-safe preview> Keywords: - <keyword or short phrase 1> - <keyword or short phrase 2> - <keyword or short phrase 3> - <keyword or short phrase 4> - <keyword or short phrase 5> Do not add any other sections, labels, commentary, or formatting.  # Fallback Condition If the transcript is missing, incomplete, or too short to summarize safely without guessing or revealing spoilers, return: Summary: Not enough transcript content to create a safe summary. Keywords: - insufficient transcript - video unavailable - missing context - incomplete transcript - spoiler-safe summary Keep the summary within 100 words.
+2026-03-08 20:52:10  INFO      [app.summarisation]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Summary generated in 6.4s
+2026-03-08 20:52:10  INFO      [app.summarisation]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Summary length: 482 chars
+2026-03-08 20:52:10  INFO      [app.summarisation]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Token usage — prompt: 4199, completion: 95, total: 4294
+2026-03-08 20:52:10  INFO      [app.summarisation]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Summary:
+Summary: This video is full of fun and laughter as different characters talk about their daily lives and funny situations. They discuss work, family, and even some silly misunderstandings. There are moments of excitement and humor, making it a light-hearted watch. Everyone seems to be having a good time, and there's a hint of something special happening soon. What could it be? Join in to find out!
+
+Keywords: - fun conversations - daily life - humor - family moments - excitement
+2026-03-08 20:59:58  INFO      [app.summarisation]  [234d03c9-df2b-41ad-b2ae-8cdc13cc1293] Starting summarisation
+2026-03-08 20:59:58  INFO      [app.summarisation]  [234d03c9-df2b-41ad-b2ae-8cdc13cc1293] Transcript length : 7899 chars
+2026-03-08 20:59:58  INFO      [app.summarisation]  [234d03c9-df2b-41ad-b2ae-8cdc13cc1293] Model             : gpt-4o-mini
+2026-03-08 20:59:58  INFO      [app.summarisation]  [234d03c9-df2b-41ad-b2ae-8cdc13cc1293] Max tokens        : 500
+2026-03-08 20:59:58  INFO      [app.summarisation]  [234d03c9-df2b-41ad-b2ae-8cdc13cc1293] Max words         : 100
+2026-03-08 20:59:58  INFO      [app.summarisation]  [234d03c9-df2b-41ad-b2ae-8cdc13cc1293] Temperature       : 0.3
+2026-03-08 20:59:58  INFO      [app.summarisation]  [234d03c9-df2b-41ad-b2ae-8cdc13cc1293] System prompt     : # Role and Objective You are a content summarization assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Reason internally as needed, but do not reveal internal reasoning.  # Instructions - Use very simple English that even kids can understand. - Do not reveal the final climax of the show. - Make the summary interesting and catchy. - Write the summary so it makes readers curious and interested to watch the TV show. - Set reasoning effort to minimal unless the transcript is unusually complex. - Before finalizing, do a brief check that the summary is spoiler-safe, uses very simple English, and follows the required output format exactly. - Output plain text only.  # Output Format Return exactly two sections in this order: Summary: <1 concise paragraph in very simple English, written as a spoiler-safe preview> Keywords: - <keyword or short phrase 1> - <keyword or short phrase 2> - <keyword or short phrase 3> - <keyword or short phrase 4> - <keyword or short phrase 5> Do not add any other sections, labels, commentary, or formatting.  # Fallback Condition If the transcript is missing, incomplete, or too short to summarize safely without guessing or revealing spoilers, return: Summary: Not enough transcript content to create a safe summary. Keywords: - insufficient transcript - video unavailable - missing context - incomplete transcript - spoiler-safe summary Keep the summary within 100 words.
+2026-03-08 21:00:02  INFO      [app.summarisation]  [234d03c9-df2b-41ad-b2ae-8cdc13cc1293] Summary generated in 3.2s
+2026-03-08 21:00:02  INFO      [app.summarisation]  [234d03c9-df2b-41ad-b2ae-8cdc13cc1293] Summary length: 481 chars
+2026-03-08 21:00:02  INFO      [app.summarisation]  [234d03c9-df2b-41ad-b2ae-8cdc13cc1293] Token usage — prompt: 4199, completion: 94, total: 4293
+2026-03-08 21:00:02  INFO      [app.summarisation]  [234d03c9-df2b-41ad-b2ae-8cdc13cc1293] Summary:
+Summary: This video is full of fun and laughter as different characters talk about their daily lives, work, and some funny situations. They discuss new services, play games, and share jokes, making everyone smile. There are moments of confusion and excitement, and it seems like everyone is having a great time together. What will happen next? Join in to find out the fun and surprises that await!
+
+Keywords: - fun conversations - daily life - humor - exciting moments - characters
+2026-03-08 21:33:50  INFO      [app.summarisation]  [56cf5ece-325e-493f-8102-435933d61494] Starting summarisation
+2026-03-08 21:33:50  INFO      [app.summarisation]  [56cf5ece-325e-493f-8102-435933d61494] Transcript length : 7899 chars
+2026-03-08 21:33:50  INFO      [app.summarisation]  [56cf5ece-325e-493f-8102-435933d61494] Model             : gpt-4o-mini
+2026-03-08 21:33:50  INFO      [app.summarisation]  [56cf5ece-325e-493f-8102-435933d61494] Max tokens        : 500
+2026-03-08 21:33:50  INFO      [app.summarisation]  [56cf5ece-325e-493f-8102-435933d61494] Max words         : 100
+2026-03-08 21:33:50  INFO      [app.summarisation]  [56cf5ece-325e-493f-8102-435933d61494] Temperature       : 0.3
+2026-03-08 21:33:50  INFO      [app.summarisation]  [56cf5ece-325e-493f-8102-435933d61494] System prompt     : # Role and Objective You are a content summarization assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Reason internally as needed, but do not reveal internal reasoning.  # Instructions - Use simple English - Convey the plot of the episode. - Make the summary interesting and catchy. - Write the summary so it makes readers curious and interested to watch the TV show. - Set reasoning effort to minimal unless the transcript is unusually complex. - Before finalizing, do a brief check that the summary is spoiler-safe, uses very simple English, and follows the required output format exactly. - Output plain text only.  # Output Format Return exactly two sections in this order: Summary: <1 concise paragraph in very simple English, written as a spoiler-safe preview> Keywords: - <keyword or short phrase 1> - <keyword or short phrase 2> - <keyword or short phrase 3> - <keyword or short phrase 4> - <keyword or short phrase 5> Do not add any other sections, labels, commentary, or formatting.  # Fallback Condition If the transcript is missing, incomplete, or too short to summarize safely without guessing or revealing spoilers, return: Summary: Not enough transcript content to create a safe summary. Keywords: - insufficient transcript - video unavailable - missing context - incomplete transcript - spoiler-safe summary Keep the summary within 100 words.
+2026-03-08 21:33:54  INFO      [app.summarisation]  [56cf5ece-325e-493f-8102-435933d61494] Summary generated in 3.9s
+2026-03-08 21:33:54  INFO      [app.summarisation]  [56cf5ece-325e-493f-8102-435933d61494] Summary length: 556 chars
+2026-03-08 21:33:54  INFO      [app.summarisation]  [56cf5ece-325e-493f-8102-435933d61494] Token usage — prompt: 4189, completion: 96, total: 4285
+2026-03-08 21:33:54  INFO      [app.summarisation]  [56cf5ece-325e-493f-8102-435933d61494] Summary:
+Summary: In this lively episode, characters engage in humorous banter about work, relationships, and daily life challenges. They discuss new services, playful teasing, and the ups and downs of their interactions. Amidst the fun, there are moments of heartfelt connection and encouragement, making it a delightful watch. The characters' unique personalities shine through as they navigate their humorous situations, leaving viewers curious about their next adventures.
+
+Keywords: - humor - relationships - daily life - character interactions - encouragement
+2026-03-08 21:34:30  INFO      [app.summarisation]  [4f9c9a46-e671-4ff4-a2cd-62f8df2caae5] Starting summarisation
+2026-03-08 21:34:30  INFO      [app.summarisation]  [4f9c9a46-e671-4ff4-a2cd-62f8df2caae5] Transcript length : 7899 chars
+2026-03-08 21:34:30  INFO      [app.summarisation]  [4f9c9a46-e671-4ff4-a2cd-62f8df2caae5] Model             : gpt-4o-mini
+2026-03-08 21:34:30  INFO      [app.summarisation]  [4f9c9a46-e671-4ff4-a2cd-62f8df2caae5] Max tokens        : 500
+2026-03-08 21:34:30  INFO      [app.summarisation]  [4f9c9a46-e671-4ff4-a2cd-62f8df2caae5] Max words         : 100
+2026-03-08 21:34:30  INFO      [app.summarisation]  [4f9c9a46-e671-4ff4-a2cd-62f8df2caae5] Temperature       : 0.3
+2026-03-08 21:34:30  INFO      [app.summarisation]  [4f9c9a46-e671-4ff4-a2cd-62f8df2caae5] System prompt     : # Role and Objective You are a content summarization assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Reason internally as needed, but do not reveal internal reasoning.  # Instructions - Use simple English - Convey the plot of the episode. - Make the summary interesting and catchy. - Write the summary so it makes readers curious and interested to watch the TV show. - Set reasoning effort to minimal unless the transcript is unusually complex. - Before finalizing, do a brief check that the summary is spoiler-safe, uses very simple English, and follows the required output format exactly. - Output plain text only.  # Output Format Return exactly two sections in this order: Summary: <1 concise paragraph in very simple English, written as a spoiler-safe preview> Keywords: - <keyword or short phrase 1> - <keyword or short phrase 2> - <keyword or short phrase 3> - <keyword or short phrase 4> - <keyword or short phrase 5> Do not add any other sections, labels, commentary, or formatting.  # Fallback Condition If the transcript is missing, incomplete, or too short to summarize safely without guessing or revealing spoilers, return: Summary: Not enough transcript content to create a safe summary. Keywords: - insufficient transcript - video unavailable - missing context - incomplete transcript - spoiler-safe summary
+
+Example: 
+Ravindra's strange behaviour worries Siri. Tulasi tells Madhav about her tiffin service. Meanwhile, Sharvari keeps Madhav in the dark about the rift between Avinash and Abhijit. Keep the summary within 100 words.
+2026-03-08 21:34:34  INFO      [app.summarisation]  [4f9c9a46-e671-4ff4-a2cd-62f8df2caae5] Summary generated in 3.5s
+2026-03-08 21:34:34  INFO      [app.summarisation]  [4f9c9a46-e671-4ff4-a2cd-62f8df2caae5] Summary length: 514 chars
+2026-03-08 21:34:34  INFO      [app.summarisation]  [4f9c9a46-e671-4ff4-a2cd-62f8df2caae5] Token usage — prompt: 4238, completion: 98, total: 4336
+2026-03-08 21:34:34  INFO      [app.summarisation]  [4f9c9a46-e671-4ff4-a2cd-62f8df2caae5] Summary:
+Summary: In this lively episode, characters engage in humorous banter about work, relationships, and daily life challenges. There's excitement about a new tiffin service, and discussions about personal struggles and funny misunderstandings unfold. As they navigate their interactions, the camaraderie and light-heartedness shine through, making viewers curious about how these characters will tackle their ups and downs together. 
+
+Keywords: 
+- tiffin service 
+- humor 
+- relationships 
+- daily life 
+- camaraderie
+2026-03-08 21:35:10  INFO      [app.summarisation]  [c7444f6e-d67d-4bc3-84cb-a0ebb85feb13] Starting summarisation
+2026-03-08 21:35:10  INFO      [app.summarisation]  [c7444f6e-d67d-4bc3-84cb-a0ebb85feb13] Transcript length : 7899 chars
+2026-03-08 21:35:10  INFO      [app.summarisation]  [c7444f6e-d67d-4bc3-84cb-a0ebb85feb13] Model             : gpt-4o-mini
+2026-03-08 21:35:10  INFO      [app.summarisation]  [c7444f6e-d67d-4bc3-84cb-a0ebb85feb13] Max tokens        : 500
+2026-03-08 21:35:10  INFO      [app.summarisation]  [c7444f6e-d67d-4bc3-84cb-a0ebb85feb13] Max words         : 100
+2026-03-08 21:35:10  INFO      [app.summarisation]  [c7444f6e-d67d-4bc3-84cb-a0ebb85feb13] Temperature       : 0.3
+2026-03-08 21:35:10  INFO      [app.summarisation]  [c7444f6e-d67d-4bc3-84cb-a0ebb85feb13] System prompt     : # Role and Objective You are a content summarization assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Reason internally as needed, but do not reveal internal reasoning.  # Instructions - Use simple English - Convey the plot of the episode using the character names - Make the summary interesting and catchy. - Write the summary so it makes readers curious and interested to watch the TV show. - Set reasoning effort to minimal unless the transcript is unusually complex. - Before finalizing, do a brief check that the summary is spoiler-safe, uses very simple English, and follows the required output format exactly. - Output plain text only.  # Output Format Return exactly two sections in this order: Summary: <1 concise paragraph in very simple English, written as a spoiler-safe preview> Keywords: - <keyword or short phrase 1> - <keyword or short phrase 2> - <keyword or short phrase 3> - <keyword or short phrase 4> - <keyword or short phrase 5> Do not add any other sections, labels, commentary, or formatting.  # Fallback Condition If the transcript is missing, incomplete, or too short to summarize safely without guessing or revealing spoilers, return: Summary: Not enough transcript content to create a safe summary. Keywords: - insufficient transcript - video unavailable - missing context - incomplete transcript - spoiler-safe summary
+
+Example: 
+Ravindra's strange behaviour worries Siri. Tulasi tells Madhav about her tiffin service. Meanwhile, Sharvari keeps Madhav in the dark about the rift between Avinash and Abhijit. Keep the summary within 100 words.
+2026-03-08 21:35:13  INFO      [app.summarisation]  [c7444f6e-d67d-4bc3-84cb-a0ebb85feb13] Summary generated in 3.1s
+2026-03-08 21:35:13  INFO      [app.summarisation]  [c7444f6e-d67d-4bc3-84cb-a0ebb85feb13] Summary length: 550 chars
+2026-03-08 21:35:13  INFO      [app.summarisation]  [c7444f6e-d67d-4bc3-84cb-a0ebb85feb13] Token usage — prompt: 4241, completion: 103, total: 4344
+2026-03-08 21:35:13  INFO      [app.summarisation]  [c7444f6e-d67d-4bc3-84cb-a0ebb85feb13] Summary:
+Summary: In this lively episode, the characters are buzzing with excitement over the launch of a new tiffin service called "Annapurna." Siri and her friends discuss their plans and the challenges they face. Amidst the fun and chaos, they navigate personal relationships and work dynamics, leading to humorous misunderstandings and heartfelt moments. Will they succeed in their new venture while managing their friendships? Tune in to find out!
+
+Keywords: - Annapurna tiffin service - friendships - misunderstandings - excitement - personal challenges
+2026-03-09 10:34:15  INFO      [app.summarisation]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Starting summarisation
+2026-03-09 10:34:15  INFO      [app.summarisation]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Transcript length : 8212 chars
+2026-03-09 10:34:15  INFO      [app.summarisation]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Model             : gpt-4o-mini
+2026-03-09 10:34:15  INFO      [app.summarisation]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Max tokens        : 500
+2026-03-09 10:34:15  INFO      [app.summarisation]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Max words         : 200
+2026-03-09 10:34:15  INFO      [app.summarisation]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Temperature       : 0.3
+2026-03-09 10:34:15  INFO      [app.summarisation]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] System prompt     : # Role and Objective
+You are a content summarization assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Reason internally as needed, but do not reveal internal reasoning.
+
+# Instructions
+- Use simple English to convey the story plot.
+- Convey the story plot using the chararacter names. But, do not reveal the final climax of the show.
+- Make the summary interesting and catchy.
+- Write the summary so it makes readers curious and interested to watch the TV show.
+- Before finalizing, do a brief check that the summary is spoiler-safe, uses very simple English, and follows the required output format exactly.
+- Output plain text only.
+
+# Output Format
+Return exactly two sections in this order:
+Summary:
+<1 concise paragraph in very simple English, written as a spoiler-safe preview>
+Keywords:
+- <keyword or short phrase 1>
+- <keyword or short phrase 2>
+- <keyword or short phrase 3>
+- <keyword or short phrase 4>
+- <keyword or short phrase 5>
+Do not add any other sections, labels, commentary, or formatting.
+
+# Fallback Condition
+If the transcript is missing, incomplete, or too short to summarize safely without guessing or revealing spoilers, return:
+Summary:
+Not enough transcript content to create a safe summary.
+Keywords:
+- insufficient transcript
+- video unavailable
+- missing context
+- incomplete transcript
+- spoiler-safe summary Keep the summary within 200 words.
+2026-03-09 10:34:19  INFO      [app.summarisation]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Summary generated in 4.2s
+2026-03-09 10:34:19  INFO      [app.summarisation]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Summary length: 668 chars
+2026-03-09 10:34:19  INFO      [app.summarisation]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Token usage — prompt: 3277, completion: 142, total: 3419
+2026-03-09 10:34:19  INFO      [app.summarisation]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Summary:
+Summary:
+In this exciting story, we meet characters like Arsenic and Keerthi, who are caught in a tangled web of love and conflict. Arsenic feels trapped and believes that nothing can change his fate, while Keerthi struggles with her feelings and the challenges of love. As they navigate their complicated relationships, secrets and emotions come to the surface. Friends and family add to the drama, as everyone has their own opinions about love and marriage. The stakes are high, and decisions must be made that could change their lives forever. Will Arsenic find peace, or will love lead to more chaos? 
+
+Keywords:
+- love
+- conflict
+- relationships
+- secrets
+- drama
+2026-03-09 11:04:07  INFO      [app.summarisation]  [5b714699-0c79-45bc-b802-52d2b363d06c] Starting summarisation
+2026-03-09 11:04:07  INFO      [app.summarisation]  [5b714699-0c79-45bc-b802-52d2b363d06c] Transcript length : 8476 chars
+2026-03-09 11:04:07  INFO      [app.summarisation]  [5b714699-0c79-45bc-b802-52d2b363d06c] Model             : gpt-4o-mini
+2026-03-09 11:04:07  INFO      [app.summarisation]  [5b714699-0c79-45bc-b802-52d2b363d06c] Max tokens        : 500
+2026-03-09 11:04:07  INFO      [app.summarisation]  [5b714699-0c79-45bc-b802-52d2b363d06c] Max words         : 200
+2026-03-09 11:04:07  INFO      [app.summarisation]  [5b714699-0c79-45bc-b802-52d2b363d06c] Temperature       : 0.3
+2026-03-09 11:04:07  INFO      [app.summarisation]  [5b714699-0c79-45bc-b802-52d2b363d06c] System prompt     : # Role and Objective
+You are a content summarization assistant. Given a video transcript, write a concise summary that captures the main topics, key points, and overall narrative. Reason internally as needed, but do not reveal internal reasoning.
+
+# Instructions
+- Use simple English to convey the story plot.
+- Convey the story plot using the chararacter names. But, do not reveal the final climax of the show.
+- Make the summary interesting and catchy.
+- Write the summary so it makes readers curious and interested to watch the TV show.
+- Before finalizing, do a brief check that the summary is spoiler-safe, uses very simple English, and follows the required output format exactly.
+- Output plain text only.
+
+# Output Format
+Return exactly two sections in this order:
+Summary:
+<1 concise paragraph in very simple English, written as a spoiler-safe preview>
+Keywords:
+- <keyword or short phrase 1>
+- <keyword or short phrase 2>
+- <keyword or short phrase 3>
+- <keyword or short phrase 4>
+- <keyword or short phrase 5>
+Do not add any other sections, labels, commentary, or formatting.
+
+# Fallback Condition
+If the transcript is missing, incomplete, or too short to summarize safely without guessing or revealing spoilers, return:
+Summary:
+Not enough transcript content to create a safe summary.
+Keywords:
+- insufficient transcript
+- video unavailable
+- missing context
+- incomplete transcript
+- spoiler-safe summary Keep the summary within 200 words.
+2026-03-09 11:04:11  INFO      [app.summarisation]  [5b714699-0c79-45bc-b802-52d2b363d06c] Summary generated in 4.0s
+2026-03-09 11:04:11  INFO      [app.summarisation]  [5b714699-0c79-45bc-b802-52d2b363d06c] Summary length: 635 chars
+2026-03-09 11:04:11  INFO      [app.summarisation]  [5b714699-0c79-45bc-b802-52d2b363d06c] Token usage — prompt: 3281, completion: 138, total: 3419
+2026-03-09 11:04:11  INFO      [app.summarisation]  [5b714699-0c79-45bc-b802-52d2b363d06c] Summary:
+Summary:
+In this intense drama, Kirthi struggles with her feelings for Krish, her former lover, who suddenly left her at the altar. Kirthi is torn between her past love and her current life, while Krish seems to be moving on. As tensions rise, Kirthi confronts her emotions and the people around her, including her friend Mahesh, who tries to support her. The story unfolds with misunderstandings, emotional confrontations, and the complexities of love and friendship. Will Kirthi find closure, or will her past come back to haunt her? 
+
+Keywords:
+- love triangle
+- emotional struggles
+- past relationships
+- friendship
+- confrontation

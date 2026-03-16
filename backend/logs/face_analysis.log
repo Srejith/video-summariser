@@ -300,3 +300,84 @@
 2026-02-16 06:07:25  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] TMDB top hit: Singappenney (id=1256581, type=movie)
 2026-02-16 06:07:26  ERROR     [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] TMDB credits error: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1256581/aggregate_credits?api_key=c22f4dd6ed168b89c6d1ee99ebbe2242
 2026-02-16 06:07:26  INFO      [app.face]  [629ca295-35f6-483a-8917-6659eac987cd] Cast analysis complete — 9 unique faces, 0 TMDB cast members
+2026-03-08 19:15:01  INFO      [app.face]  [cf148a89-a8d9-4d52-9e00-142736613847] Starting cast analysis
+2026-03-08 19:15:01  INFO      [app.face]  [cf148a89-a8d9-4d52-9e00-142736613847] Extracting frames (1 per 10s)
+2026-03-08 19:15:08  INFO      [app.face]  [cf148a89-a8d9-4d52-9e00-142736613847] Extracted 107 frames
+2026-03-08 19:15:32  INFO      [app.face]  [cf148a89-a8d9-4d52-9e00-142736613847] Total face instances detected: 148
+2026-03-08 19:15:32  INFO      [app.face]  [cf148a89-a8d9-4d52-9e00-142736613847] Unique faces after clustering: 13
+2026-03-08 19:15:32  INFO      [app.face]  [cf148a89-a8d9-4d52-9e00-142736613847] Top face: 76 appearances (71.0%)
+2026-03-08 19:15:32  INFO      [app.face]  [cf148a89-a8d9-4d52-9e00-142736613847] Cast analysis complete — 13 unique faces, 0 TMDB cast members
+2026-03-08 19:16:26  INFO      [app.face]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Starting cast analysis
+2026-03-08 19:16:26  INFO      [app.face]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Extracting frames (1 per 10s)
+2026-03-08 19:16:33  INFO      [app.face]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Extracted 107 frames
+2026-03-08 19:16:57  INFO      [app.face]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Total face instances detected: 148
+2026-03-08 19:16:57  INFO      [app.face]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Unique faces after clustering: 13
+2026-03-08 19:16:57  INFO      [app.face]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Top face: 76 appearances (71.0%)
+2026-03-08 19:16:57  INFO      [app.face]  [89f47f0d-3b6d-415a-83fc-b0d6a77c048f] Cast analysis complete — 13 unique faces, 0 TMDB cast members
+2026-03-08 19:25:07  INFO      [app.face]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Starting cast analysis
+2026-03-08 19:25:07  INFO      [app.face]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Extracting frames (1 per 10s)
+2026-03-08 19:25:18  INFO      [app.face]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Extracted 128 frames
+2026-03-08 19:26:20  INFO      [app.face]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Total face instances detected: 162
+2026-03-08 19:26:20  INFO      [app.face]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Unique faces after clustering: 32
+2026-03-08 19:26:20  INFO      [app.face]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Top face: 25 appearances (19.5%)
+2026-03-08 19:26:20  INFO      [app.face]  [687c3c2a-24e3-48ab-b7ba-453ee5d157ee] Cast analysis complete — 32 unique faces, 0 TMDB cast members
+2026-03-08 19:38:30  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Starting cast analysis
+2026-03-08 19:38:30  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Extracting frames (1 per 10s)
+2026-03-08 19:38:38  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Extracted 126 frames
+2026-03-08 19:39:06  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Total face instances detected: 114
+2026-03-08 19:39:06  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Unique faces after clustering: 19
+2026-03-08 19:39:06  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Top face: 20 appearances (15.9%)
+2026-03-08 19:39:06  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Searching TMDB for 'Shrirasthu Shubhamasthu'
+2026-03-08 19:39:07  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] TMDB top hit: Shrirasthu Shubhamasthu (id=275664, type=tv)
+2026-03-08 19:39:07  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] TMDB returned 2 cast members
+2026-03-08 19:39:07  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Building actor features for 2 TMDB cast members
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Matching 19 detected faces (mode=face-encoding)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Match: face → Sudharani (score=0.50)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] No match for face (best=-inf)
+2026-03-08 19:39:08  INFO      [app.face]  [3aaa2f78-7acd-4a61-b9b9-434aa2dbb69d] Cast analysis complete — 19 unique faces, 2 TMDB cast members
+2026-03-08 20:46:13  INFO      [app.face]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Starting cast analysis (source=tmdb)
+2026-03-08 20:46:13  INFO      [app.face]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Extracting frames (1 per 10s)
+2026-03-08 20:46:21  INFO      [app.face]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Extracted 126 frames
+2026-03-08 20:46:49  INFO      [app.face]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Total face instances detected: 114
+2026-03-08 20:46:49  INFO      [app.face]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Unique faces after clustering: 19
+2026-03-08 20:46:49  INFO      [app.face]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Top face: 20 appearances (15.9%)
+2026-03-08 20:46:49  INFO      [app.face]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Searching TMDB for 'Shrirastu Shubhamasthu'
+2026-03-08 20:46:50  WARNING   [app.face]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] No TMDB results for 'Shrirastu Shubhamasthu'
+2026-03-08 20:46:50  INFO      [app.face]  [61b3338d-d06c-4aa3-aa68-1d6e9b79cd34] Cast analysis complete — 19 unique faces, 0 TMDB cast members
+2026-03-09 10:27:00  INFO      [app.face]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Starting cast analysis (source=tmdb)
+2026-03-09 10:27:00  INFO      [app.face]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Extracting frames (1 per 10s)
+2026-03-09 10:27:08  INFO      [app.face]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Extracted 107 frames
+2026-03-09 10:27:31  INFO      [app.face]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Total face instances detected: 148
+2026-03-09 10:27:31  INFO      [app.face]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Unique faces after clustering: 13
+2026-03-09 10:27:31  INFO      [app.face]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Top face: 76 appearances (71.0%)
+2026-03-09 10:27:31  INFO      [app.face]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Searching TMDB for 'Niram maaratha pookal'
+2026-03-09 10:27:32  INFO      [app.face]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] TMDB top hit: Niram Maaratha Pookkal (id=775529, type=movie)
+2026-03-09 10:27:32  ERROR     [app.face]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] TMDB credits error: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/775529/aggregate_credits?api_key=c22f4dd6ed168b89c6d1ee99ebbe2242
+2026-03-09 10:27:32  INFO      [app.face]  [af7d2386-b5bb-44c0-a4f6-683c0180503b] Cast analysis complete — 13 unique faces, 0 TMDB cast members
+2026-03-09 10:42:08  INFO      [app.face]  [5b714699-0c79-45bc-b802-52d2b363d06c] Starting cast analysis (source=tmdb)
+2026-03-09 10:42:08  INFO      [app.face]  [5b714699-0c79-45bc-b802-52d2b363d06c] Extracting frames (1 per 10s)
+2026-03-09 10:42:16  INFO      [app.face]  [5b714699-0c79-45bc-b802-52d2b363d06c] Extracted 116 frames
+2026-03-09 10:42:42  INFO      [app.face]  [5b714699-0c79-45bc-b802-52d2b363d06c] Total face instances detected: 140
+2026-03-09 10:42:42  INFO      [app.face]  [5b714699-0c79-45bc-b802-52d2b363d06c] Unique faces after clustering: 12
+2026-03-09 10:42:42  INFO      [app.face]  [5b714699-0c79-45bc-b802-52d2b363d06c] Top face: 74 appearances (63.8%)
+2026-03-09 10:42:42  INFO      [app.face]  [5b714699-0c79-45bc-b802-52d2b363d06c] Searching TMDB for 'Niram maaratha pookal'
+2026-03-09 10:42:42  INFO      [app.face]  [5b714699-0c79-45bc-b802-52d2b363d06c] TMDB top hit: Niram Maaratha Pookkal (id=775529, type=movie)
+2026-03-09 10:42:43  ERROR     [app.face]  [5b714699-0c79-45bc-b802-52d2b363d06c] TMDB credits error: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/775529/aggregate_credits?api_key=c22f4dd6ed168b89c6d1ee99ebbe2242
+2026-03-09 10:42:43  INFO      [app.face]  [5b714699-0c79-45bc-b802-52d2b363d06c] Cast analysis complete — 12 unique faces, 0 TMDB cast members
